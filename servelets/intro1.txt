@@ -1,0 +1,37 @@
+*Request
+URL
+HTTP method
+form data
+cookies
+
+*Response
+->Status code
+->Content type
+->cookies
+
+*protocol : http -80 or https -443  ->set of rules for communication
+its not manadatory
+*Domain name : it is a server name (DNS domain name server name)     com.playstore.app.piccollage 
+its a computer name where that application exists (google.com) ,it is not case incensitve ,it is manadatory
+
+Port : http:8080 , https:8443  for apache tomcat
+
+path : this path is case sencitive
+
+QueryString : This comes after the path ,? 
+?name=value&name1=value1&name2=value2
+
+fragment_id :
+
+_____________________________________________
+HTTP methods :-
+GET
+POST
+PUT
+DELETE
+HEAD
+OPTIONS
+TRACE
+CONNECT
+
+ 

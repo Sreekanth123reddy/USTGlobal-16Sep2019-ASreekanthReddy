@@ -1,0 +1,33 @@
+Calling servlet from servlet : -
+
+___________________________
+*Request dispatcher and redirect 
+
+
+*Request Dispatcher is used to dispatch from one sevlet to another servlet
+*RequestDispatcher is a interface
+
+
+RequestDispatcher dispatcher = req.getRequestDispatcher("sq");
+rs.forward(req,res); 
+
+*In web.xml : 
+ <servlet>  
+<servlet-class>fully qualified name</servlet-class>
+<servlet-name>sq</servlet-name>
+</servlet>
+
+
+ <servlet -mapping>  
+<servlet-class>sq</servlet-class>
+<url-pattern>/sq</url-pattern>
+</servlet-mapping>
+
+*what ever we placed in 	getRequestDispatcher("sq") , we need to keep it on url-pattern , 
+
+*With the help of session managment we can pass data from one servlet to another servlet 
+* Easiest way to send data is   =>
+
+
+one servlet a :   req.setAttribute("k",K);
+on another servlet  b : int value= req.getAtribute("k");  

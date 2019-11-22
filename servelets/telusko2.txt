@@ -1,0 +1,21 @@
+*Netbeans , Eclipse , Intelli J for best IDE s for Java
+*We can  go with eclipse  oxygen , neon are latest versions
+*workspace
+*open  JEE Default perspective for working with server
+*We need a tomcat server 
+*Select dynamic web project while creating a project 
+*Select target run time 3.1
+*and generate web.xml deployment descriptor 
+*Folders in project :
+	->Web_inf : web.xml , configure most of the stuff
+	->Java_resources : java codes 
+____________________________________________
+*Simple Hello world project :
+
+*Create index.html in web_content folder
+	<body> Hello world</body>
+*Click on tomcat 8.1 server for running
+*Eclipse has internal browser  but use external browsers 
+*For changing web browser go to windows ->web browser->click for browser
+______________________________________________________
+*Adding two  numbers :

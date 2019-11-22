@@ -1,0 +1,38 @@
+ServletConfig ServletContext : 
+*Initil set up or initial parameters for url 
+By using tag called :
+
+<context-param>
+<param-name>Name</param-name>
+<param-value>Navin</param-value>
+</context-param>
+
+<context-param>
+<param-name>Phone</param-name>
+<param-value>Samsung</param-value>
+</context-param>
+
+
+In servlet a:
+
+ServletContext and config are both of interfaces
+
+ServletContext context = getServletContext();  (or) req.getServletContext();
+String str = context.geIinitParameter ("name") ;  //it will give the value of an attribute which you speciefy in param-name
+
+String str = context.getIinitParameter ("Phone") ;
+
+ServletConfig :
+*ServletConfig we can specify the initial value , which will be shared  by all servlets  
+
+ServletConfig  cg =getServletConfig()
+cg.getInitParameter("name");
+
+<init-parameter>
+
+<param-name>Name</param-name>
+<param-value>Navin</param-value>
+
+
+*If we have multiple Servlets which will share the same value  go for servletContext and if  we have differnt go for ServletConfig
+</init-parameter>

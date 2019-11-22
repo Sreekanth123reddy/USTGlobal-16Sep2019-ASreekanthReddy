@@ -1,0 +1,12 @@
+package com.ustglobal.empwebapp.util;
+
+public class EmployeeDaoManager {
+	private EmployeeDaoManager() {
+		
+		
+	}
+	
+	public static EmployeeDao getEmployeeDAO(){
+		return new EmployeeDaoJdbcImpl();
+	}
+}

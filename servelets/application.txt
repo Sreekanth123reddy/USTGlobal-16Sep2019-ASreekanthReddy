@@ -1,0 +1,17 @@
+Java SE :
+	we can develop only desktop of appliations .
+
+Applications : - 
+	1 .Stand alone application
+	2.web applications
+
+stand alone applications : 1 .Desktop applications 	2. Mobile applications
+
+*Using Java SE we can develop stand alone applications .
+
+Java EE : Java Enterprised Edition .
+ *Using EE we can develop web applications .
+
+Java ME : Java Micro edition or mobile edition , we can develop mobile applications
+
+*In web appplication we have two types 1 .Static applications 2 .Dynamic web application

@@ -1,0 +1,26 @@
+servlet A:
+HttpSession session = req.getSession();
+session.setAttribute("k",k);
+
+Servlet b:
+HttpSession session =req.getSession();
+int k =session.getAttribute("k");
+
+*Session is also used for sendig data from one servlet to another servlet 
+
+Cookies : - 
+
+*When ever you send a request to the server , the response object will have a cookie and then whn we send  a request again we will have same cookie
+
+servlet a:
+Cookie  cookie = new Cookie("k",k+"");
+resp.addCookie(cokie);
+
+servlet b:
+Cookies cookies[] = req.getCookies();
+
+for(Cookies c :cookies)
+{
+if(c.getName().equals("k"))
+	k=Integer.parseInt(c.getValue());
+}

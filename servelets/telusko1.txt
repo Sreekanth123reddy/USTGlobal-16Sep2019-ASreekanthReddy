@@ -1,0 +1,7 @@
+ * From client side request goes to server side , since  its  a dynamic request it goes to web container like tomcat  apache ,from web container request 
+goes to servlet , we have a file call deployment descriptor (web.xml) 
+*In web.xml  we have two tags  1.Servlet tag  2.Servlet mapping tag
+*In servlet tag we need to map class name and servlet mapping tag we need to map url pattern .
+*A normal class which extends HttpServlet , which provides  all the features such as  taking request ,  giving response , processing request and response
+ and process the information and the response in the form of html format
+*Without using web.xml we will use url pattern with the help of annotations .

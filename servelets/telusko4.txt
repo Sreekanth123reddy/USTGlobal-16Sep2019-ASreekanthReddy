@@ -1,0 +1,11 @@
+Http - Hyper text transfer protocol  
+*we have 7 methods but mostly we use 5 Get ,post ,put, delete,options
+*To send data to the server we mostly use post request and for fetching we use get 
+*When ever we use get request method , the values goes to the address bar  , if we dont metion any thing method in html page by default it will
+take Get request 
+*If i use post , the url pattern does not contain any query string . 
+*When we would want to fetch data from server go for Put  and when ever we want to post data to the server go for Post 
+*Post will not put our data in our url
+*HttpServlet  provides doPost() ,doGet() , if we use these mostly 
+*Request alwasys goes to service method , depend on request it will call doGet or doPost method
+*we can use doGet() and doPost() at same time 

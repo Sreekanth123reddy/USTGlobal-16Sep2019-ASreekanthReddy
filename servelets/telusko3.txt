@@ -1,0 +1,32 @@
+*To add two numbers with the help of server side technology
+ *Create index.html by taking two input box
+
+
+*create a class extends HttpServlet , then it will behave like a servlet class
+*write a method that takes two objects ,one is request object and one is respoonse object 
+*They are HttpServletRequest ,HttpServletResponse objects 
+*Using HttpServletRequest object we can fetch data from the client and   HttpServletResponse provides response to the server
+*req.getParameter("name"); , if it is string convert with the help of parseInt()
+		e.g : int a = Integer.parseInt(req.getParameter("num1"));
+*QueryString is part that sends request or content
+*In web.xml
+ <servlet> 
+<servlet-name>abc </servlet-name>
+<servlet-class>fully qualified name ,i.e with package name </servlet-class>
+</servlet>
+_____________________
+<servlet-mapping> 
+<servlet-name>abc </servlet-name>
+<url-pattern> /add</url-pattern>
+</servlet-mapping>
+*servlet-name in both tags should be same
+________________________________
+*for printing data on the page , we need to use 
+
+resp.getWriter().println("<h1></h1>);
+
+or
+
+PrintWriter out =resp.getWriter();
+_________________
+we must use void service( --- , ---) , other than these we cant use
