@@ -1,0 +1,10 @@
+#nav{
+    background-color: blue;
+    height: 50px;
+}
+.brand{
+    color :white;
+    margin-left: 20px;
+    font-size :15px;
+    text-decoration: none;
+}

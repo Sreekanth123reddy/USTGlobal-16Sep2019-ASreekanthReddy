@@ -1,0 +1,14 @@
+<h2 *ngIf ="true" style="color :red">Hi hello sreekanth reddy</h2> <br>
+<h2 *ngIf ="displayName;else elseBlock" style="color: yellow;">
+    Hi HELLO
+</h2>
+<ng-template #elseBlock>
+<h2 style="color: yellow;">Sreekanth reddy</h2>
+</ng-template>
+<div *ngIf="displayName;then thenBlock;else elseBlock1"></div>
+<ng-template #thenBlock>
+<p>ng-if if part is working</p>
+</ng-template>
+<ng-template #elseBlock1>
+    <p>ng-if is now working else part</p>
+</ng-template>

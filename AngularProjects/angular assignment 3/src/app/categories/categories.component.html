@@ -1,0 +1,15 @@
+<div>
+    <select name="categories" id="categories" style="height: 40px;border-radius: 3px;" (change) = "getValue($event)" class="col-md-4 offset-4">
+        <option value="entertainment">Entertainment</option>
+        <option value="business">Business</option>
+        <option value="general">General</option>
+        <option value="health">Health</option>
+        <option value="science">Science</option>
+        <option value="sports">Sports</option>
+        <option value="technology">Technology</option>
+    </select>
+</div>
+<div class="col-md-3 float-left card card-body" style="height: 350px;" *ngFor = "let news of cntryNews">
+    <img src="{{news.urlToImage}}" style="height: 250px;" alt="">
+    <p>{{news.title}}</p>
+</div>
