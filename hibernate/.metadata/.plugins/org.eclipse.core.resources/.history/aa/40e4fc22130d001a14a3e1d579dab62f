@@ -1,0 +1,14 @@
+package com.ustglobal.jpawithhibernate.manytomany;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data
+@Entity
+@T
+public class Student {
+private int sid;
+private String sname;
+
+}

@@ -1,0 +1,28 @@
+JPA : java persistance API
+
+JPA with Hibernate : 
+
+*JPA is an API it can used to perform persistance operation in enterprise application .
+*JPA is a specification it can be used to perform persistance operation by following  ORM rules and regulations .
+*Popular implementation of JPA is Hibernate and then eclipse-link and then open JPA .
+
+
+*If we use Hibernate without JPA , then it is very difficult to migrate from Hibernate to eclipse-link .
+
+Steps to create PA with hibernate project :
+
+Step 1 :
+ create a project and add file dependeny to the  maven project .
+Step 2 :
+Create a entity class , this entity class should present in 'dto package' 
+step 3 :
+Inside dto , Mapping the entity class 
+step 4 :
+Create a JPA configuration file (persistance.xml) , this xml file should present  META-INF  folder , it should present src -main-resource
+Step 5:
+ Create a main class and write all the JPA code 
+
+Step 1:
+ *Group Id  : com.company-name
+*Artifact ID :  projet -name
+

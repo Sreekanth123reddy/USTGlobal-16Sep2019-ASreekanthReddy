@@ -1,0 +1,16 @@
+Rules for POJO class : -
+
+Plain old java object
+*All Data members must be private 
+*Getter and setter methods
+*public default constructor
+
+
+*two ways to map entity class , one is through xml and other one with annotation .
+* @entity to add to the entity class
+*@table(name=tablename)
+*@column(name=pid)
+*@column(name=pname)
+*@column(name=quantity)
+
+* In persistence.xml the first root element is  <persistence>

@@ -1,0 +1,15 @@
+package com.ustglobal.jpawithhibernate.onetomany;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="pensil")
+public class Pensil {
+	private int price;
+	private String brand; 
+}
+

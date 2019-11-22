@@ -1,0 +1,39 @@
+Framework : Ready made code , ready to use .
+It is abstraction software 
+e.g : Hibernet 
+*Hibernate is one of the popular frame work , that simplifies the development  of java application to interact with the database.
+*JPI with hibernate
+
+
+persistance - permanent storage
+persistance logic - The logic that must need to write
+persistance data - permanent data
+
+Drawbacks of JDBC  :
+
+*While creating JDBC persistance logic we keep  DB structure in mind  and then we write jdbc application code . After the application is completed 
+if  the DB structure is modified then we need to make the changes in entire application code  ,When ever the JDBC code is added  ,it makes burden 
+on the developer .
+
+*In real time applications , the data will be in the object form  and the data will transfer with in the application but storing in database the jdbc api 
+cannot transfer object between application and data base so object is converted to text and text will be transfered to the data base .Here the 
+application code is increased converting an object to text or text to object and  also burden on the programmer will increase .
+
+*Database dependent , if i use mysql then i need to write mysql connection , if i use oracle again i need to change the code 
+
+*In JDBC we explicitely handling the compile time exceptions
+
+*JDBC does not support association 
+
+
+
+Object Relational Mapping (ORM): - 
+
+*ORM is a kind of persistance software which acts like a bridge between java application and Database and transfer the data'  to or from data' and 'to or 
+from object' .
+*When we work with the object oriented there is a mismatch between object model and relational model database .
+
+
+
+
+

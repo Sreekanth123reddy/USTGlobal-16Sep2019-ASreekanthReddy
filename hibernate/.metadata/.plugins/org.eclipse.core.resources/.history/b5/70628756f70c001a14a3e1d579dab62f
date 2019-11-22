@@ -1,0 +1,16 @@
+package com.ustglobal.jpawithhibernate.onetomany;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="PensilBox")
+
+public class PensilBox {
+private int pricebox;
+private String color;
+private Pensil pensil;
+}

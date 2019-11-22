@@ -1,0 +1,15 @@
+package com.ustglobal.jpawithhibernate;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import com.ustglobal.jpawithhibernate.dto.ProductInfo;
+
+public class ReadDemoo {
+public static void main(String[] args) {
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("test");
+	EntityManager entityManager = entityManagerFactory.createEntityManager();
+	entityManager.find(ProductInfo.class, 101);
+}//end of main method
+}// end of class

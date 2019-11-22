@@ -1,0 +1,28 @@
+package com.ustglobal.jpawithhibernate.jpql;
+
+import java.util.ArrayList;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+public class RetrieveWithJPQL {
+	public static void main(String[] args) {
+		EntityManager entityManager = null;
+		try {
+			EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("test");
+			entityManager = entityManagerFactory.createEntityManager();
+			String jpql = "from ProductInfo";
+			Query query =entityManager.createQuery(jpql);
+			ArrayList al = new ArrayList();
+			al.add(query.getResultList());
+			for (Object object : al) {
+				System.out.println(al);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

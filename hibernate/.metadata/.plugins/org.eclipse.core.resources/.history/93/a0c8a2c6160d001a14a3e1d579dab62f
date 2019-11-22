@@ -1,0 +1,13 @@
+package com.ustglobal.jpawithhibernate.manytomany;
+
+public class TestManytoMany {
+public static void main(String[] args) {
+	Course course= new Course();
+	course.setCid(101);
+	course.setName("java");
+	Course course1= new Course();
+	course1.setCid(102);
+	course1.setName("sql");
+	
+}
+}
