@@ -1,0 +1,61 @@
+key attribute : The attribute with the help which we can identify the record uniquely.
+non key attribute :All the attributes except key attributes is called non-key attribute.
+prime key attribute : among the key attribute  ,an attribute which we choosen to identify the record uniquely in a table .
+composite key : the combination of two or more key attributes which is used to identify a record uniquely .
+super key:  The set of all the key attributes is known as super key attribute .
+________________________________________________________________________________________________________________________
+Functional Dependency : -
+_____________________
+A  relation which exists such that attributes determines another attribute uniquely i.e known as functional dependency.
+	R->{X,Y}	X->DETERMINANT Y->DEPENDENT 
+There are three types functional dependency : 
+
+1.Total FD
+2.Partial FD
+3.Transitive FD
+
+Total Functional Dependency : 
+____________________________  	If all the attributes of a relation determined by a key attribute i.e known as Total FD .
+				 R ->{A,B,C,D}
+				  A->B,
+				  A->C,
+				  A->D 
+Partial Functional Dependency :
+_____________________________       	A relation set has partial functional dependency ,
+					1.It consists a composite key attribute
+					2.There exists a dependency such that an attribute can be determined by other attribute which is a
+					part of composite key attribute.
+				R->{A,B,C,D}
+				{A,B}->{C,D}
+				{B}->{C}
+				{A,B}->{D}
+Transitive Functional dependency :
+_______________________________ A relation set have a transitive functional dependency if there exists a relation such that an attribute is determined
+	by non-key attribute which in term is determined by key attribute .
+			R ->{A,B,C,D}
+			A->B
+			B->C 
+			so A->C
+
+NORMALIZATION  : 
+_________________ 
+			The process of decomposing the table into smaller table in order to remove rdundancy and anomoly by identifying 
+dependencies . or The process of reducing    the table into its normal form .
+
+Normal Forms : -
+	A state of table without redundancy and anomoly is known as normal form
+Anomolys : - The problem which occur during DML operations 
+Types :-
+First Normal Form : -
+____________________
+			A table is set to be in 1NF  ,if it satisfy the following conditions :
+				1.A table should not contain duplicate records .
+				2.Every cell in the table should have single value(Atomic value) .
+SecondNormal Form :-
+_____________________  	A table is set to be in 2NF  ,if it satisfy the following conditions :
+				1.A table should be in  FirstNormal Form
+				2.Table should not contain partial functional dependency. 
+Third Normal Form :-
+_____________________
+	1.It should satisfy the second normal form
+	2.Should not contain transitive functional dependency

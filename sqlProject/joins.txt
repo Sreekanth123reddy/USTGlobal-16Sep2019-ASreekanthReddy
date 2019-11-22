@@ -1,0 +1,41 @@
+Joins : -
+Cross or cartesian join : -
+	Each record from one table merges with each and every record from another table .
+	{A,B} ,{C,D,E} =>{A,C}{A,D},{A,E},{B,C},{B,D},{B,E}};
+-->select * from table_name cross join table_name2;
+-->select * from emp cross join dept;
+_______________________________________________________
+Inner Join : -
+	Inner join is used to obtain only matched records from the table . 
+	ASCII ==>	 select  * from 
+		emp  e inner join  dept d 	
+		on e.deptno =d.deptno;
+	oracle==> select * from tablename1,tabelename2 where <InnerCondition>
+		==>select * from 
+		       emp ,dept where emp.deptno=dept.deptno;
+_________________________________________________________
+Outer join :-
+Left Outer  join : -
+	Left outer join is the combination of inner join and matched record present in the left table .
+Syntax : 
+ASCII =>select * from table_name1 LEFT OUTER JOIN table_name2 on condition ;
+ORACLE =>select * from table_name1 t1,table_name2 t2 where t1.column_name=t2.column_name
+__________________________________________________________
+Right outer join :- It is the combo of inner join and unmaatched records present in the right-side
+	select * from table1 rightOuterjoin table2 on t1.column_name =t2.column_name;
+______________________________________________________________
+Full outer join : - It obtains the unmatched records from both tables
+_________________________
+Natural join :
+->  It is similar to inner join ,where we dont specify the join condition .
+->select * from table1 natural join table2
+________________________
+self join :
+->Joining the same tables 
+->Joining of two same tables is known as self join .we use this join whenever data to be selected with in the same table but it should
+present in two records
+->we always use alias here .
+syntax :
+	select * from table t1 join table t2 on condition ;
+	
+	select * from table t1 ,table 2 where condition ;

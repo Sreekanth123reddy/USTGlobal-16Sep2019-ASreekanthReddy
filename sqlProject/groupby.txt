@@ -1,0 +1,24 @@
+Group By :-
+order of execution :-
+From ->Group By ->count() ->select
+->group by will always execute row by rows 
+
+1 .WQ to display the maximum salary for each department ?
+
+select deptno, max(salary) from emp group by deptno;
+
+2.WQ to display the highest salary given to hr for each department ?  
+
+->select max(salary) , deptno,ename,designation from emp where designation='HR' group by deptno;
+
+Having Clause :-
+
+From->where->Group by->having clause ->count...->select
+
+Syntax :-
+select * from emp table_name where condition group by column name having condition .
+
+1.WQ  to display all department numbers which has atleast two employee ?
+
+ select   deptno from emp  group by deptno having count(*)>=2;
+

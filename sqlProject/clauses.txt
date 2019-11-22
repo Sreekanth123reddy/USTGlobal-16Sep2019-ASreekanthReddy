@@ -1,0 +1,52 @@
+Order By : -  
+* It is used to sort the result -set in ascending or descending order .
+* Sorts the records in ascending order by default .
+
+Syntax :- 
+	SELECT  column1 ,column2...... FROM table _name
+	ORDER BY column 1 ASC|DESC 
+
+1 .WQ to display all the result of the employee and salary should be in descending order .
+
+-> select * from emp  order by salary; //asending
+-> select * from emp  order by salary desc; //descending
+___________________________________________________________________________________
+SubQuery : -
+	-> Query inside a query is called a sub query .
+	->Inner query will execute first . Inner query result will be treated as input for outer query .
+syntax 	: -
+	select * from table_name where column_name operator(select   * from table_name where condition);
+
+Two types :
+	->single row subqury
+	->Multi row subquery
+single row subqury :
+	Only relational opertors used in this inner query  . we will get single value .
+
+1.WQ to show all the record of the employee whose date of joining is same as 'manoj kumar' ?
+
+ select * from emp where doj=(select doj from emp where ename='Manoj kumar reddy');
+
+2.WQ to display the second maximum salary ?
+
+select max(salary) from emp where salary <(select max(salary) from emp);
+
+Any operator :-
+______________  ANY means it should satisfy any condition inside parenthesis.
+
+ALL OPERATOR :-
+_______________All means it should satisfy all conditions inside parenthesis .
+
+MultiRow subquery :- 
+		
+1 .WQ to display name of the employee who is working in location which has atleast one 'A' in the location ? 
+
+select ename from emp where deptno =(select deptno from dept where location=(select location from dept where location like '%m%'));
+
+select ename from emp where deptno in(select deptno from dept where location in(select location from dept where location like '%a%'));
+
+2.WQ to display all the records of the employee who is working in admin ,operators and developers 
+
+select * from emp where deptno in(select deptno from dept where dname in('admin','operator','development'));
+
+

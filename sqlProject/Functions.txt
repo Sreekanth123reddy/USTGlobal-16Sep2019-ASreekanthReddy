@@ -1,0 +1,17 @@
+Functions :-
+* Function is a block of code which is use to perform a specific task .
+* For doing operations on data SQl
+->Single row function Or Scalar functions   
+			 :If we provide one i/p ,one o/p we get ,for n inputs n outputs  will get
+->Multi row function or Aggregate funnction:
+			: for n inputs , single output 
+		*AVG()	->Returns average value
+			 select avg(salary) from emp;
+		*COUNT() ->It count the number of rows
+			select count(*) from emp;
+		*MAX()	->returns the maximum value of the selected column
+			select max(salary) from emp;
+		*MIN()	->returns minimum value of the selected column
+			select min(salary) from emp;
+		*SUM() 	->Returns sum of all the values of the selected column
+			 select sum(salary) from emp;
