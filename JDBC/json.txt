@@ -1,0 +1,4 @@
+XML :
+JSON  :
+*Befor json we will use xml 
+*Befor xml , csv is used (Comma separated value)

@@ -1,0 +1,36 @@
+User ->Application ->Operating System->Hardeware
+*Java is both application and language .
+*MySql is also an application
+*Java application and MySql application need to connect , for that we are using JDBC .
+*jdbc API  is used to interact with any database such as RDBMS 
+
+
+JAVA----->		JDBC------->	MySqlDB
+
+*Connection 	Statement	ResultSet  are interfaces .
+
+*Driver class ->To communicate with DB  , import com.mysql.jdbc.Driver 
+-> 4 types of drivers ->ODBC -JDBC,Native PI, Network protocol ,Native Protocol
+
+*Native Protcol is faster and efficiiency when compared to all  driver 
+ ->It is .jar  file , we need to attach in our application .
+*Jar file is a collection of .class files
+*To connect with rdbms , we need jdbc driver .
+*register driver .DriverManager helps to register driver class
+
+Step 1 : Load the driver 
+	Driver driver = new Driver();
+	DriverManager.registerDriver(driver);
+
+____________________________________________
+jdbc:mysql://localhost:3306/ust_db?user=root&password=root
+protocol  | sub_protocol |sub_name
+
+sub_name - >
+Domain_name|port|db_name|queryString
+
+
+
+___________________
+select->executeQuery()
+Insert,update,delete ->executeUpdate()

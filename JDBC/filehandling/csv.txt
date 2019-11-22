@@ -1,0 +1,4 @@
+10,Anushka,100000,F
+11,RashiKhanna,89000,F
+12,RamCharan,7000000,M
+13,Pawankalyan,8900000,M
