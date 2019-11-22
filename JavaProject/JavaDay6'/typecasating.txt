@@ -1,0 +1,16 @@
+TypeCasting  :-
+*Converting one type to as another type is called "TypeCasting ".
+*Primitive  type casting ->IMPLICIT ,Explicit
+*Reference type casting
+
+->Lower datatype value is casted to higher data type variable is called "IMPLICIT CASTING" .
+ eg : short a =10;
+	int b = a;
+->When higher data type is casted to lower data type is called explicit casting .
+double x =20.35;
+int y= (int)x;
+ooooo
+Reference type casting
+ ->converting one reference type to another refernce type
+
+*Without upcasting , its not possible for downcasting .

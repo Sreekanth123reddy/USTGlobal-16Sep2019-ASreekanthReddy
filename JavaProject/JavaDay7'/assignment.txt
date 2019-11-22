@@ -1,0 +1,13 @@
+1  . What is abstraction ?
+2 .what is the use of abstraction ? How to achive abstrction ?
+3 .What is has a relation ?
+4.Explain composition and aggregation with eaxample ?
+5.Explain System.out.println() ?
+6.what is bean class ? How to create bean class , rules for bean class
+7.what is the use of DTO
+8.what is encapsulation , explain with example
+9.what is scanner class , explain with example
+
+_______________________________
+
+All the resources we should always close 

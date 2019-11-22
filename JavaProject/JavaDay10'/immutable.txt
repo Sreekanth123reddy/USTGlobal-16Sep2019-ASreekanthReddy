@@ -1,0 +1,6 @@
+Rules to create immutable class :
+*Class Should be public ,non -abstract and final 
+*All the variables should be dclared as private and final 
+*There should be parameterized constructor to initialize the private variables .
+*Can have a getter public method , to get the assigned vaalue of  a private variable .
+*If you are having method which changes the content of variables, create a new object with the content and return the new object .

@@ -1,0 +1,23 @@
+package com.ustglobal.streams;
+
+import java.util.ArrayList;
+
+public class TestD {
+public static void main(String[] args) {
+	ArrayList<Integer> marks = new ArrayList<Integer>();
+	marks.add(70);
+	marks.add(69);
+	marks.add(58);
+	marks.add(95);
+	marks.add(87);
+	marks.add(24);
+	marks.add(32);
+	
+	
+	long noOfFailedStudents = marks.stream().filter(i -> i<40).count();
+	System.out.println(noOfFailedStudents);
+	System.out.println("=================");
+	
+	
+}
+}

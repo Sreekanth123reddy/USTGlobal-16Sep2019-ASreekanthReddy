@@ -1,0 +1,7 @@
+package com.ustglobal.exceptions;
+public class BMS {
+public static void main(String[] args) {
+	System.out.println("Book my Show started");
+	P
+}
+}

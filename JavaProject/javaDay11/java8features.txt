@@ -1,0 +1,21 @@
+Java 8
+Predefined functional interface : 
+
+*	Predicate<T>		T ->input type -non primitive
+*it returns boolean
+*java.util.function package 
+_____________________________________________
+
+Function<T,R>  		T->Input type R->Return type   (Non primitive)
+
+___________________________________________
+
+Supplier<R>  
+no input argument
+only return type
+
+e.g : 
+_________________________________
+
+Consumer<T>
+only input type , no return type

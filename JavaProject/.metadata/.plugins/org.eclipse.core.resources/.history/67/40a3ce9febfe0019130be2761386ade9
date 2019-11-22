@@ -1,0 +1,31 @@
+package com.ustglobal.sorting.set;
+
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+
+public class TestD {
+public static void main(String[] args) {
+	LinkedHashSet<Double> ls = new LinkedHashSet<Double>();
+	ls.add(12.3);
+	ls.add(25.6);
+	ls.add(56.3);
+	ls.add(34.5);
+	ls.add(78.2);
+	System.out.println("******************Using For each******************************");
+	for(Object s : ls)
+	{
+		System.out.println(s);
+	}
+	
+	System.out.println("*****************Using iterator*********************");
+	Iterator it =ls.iterator();
+	while(it.hasNext())
+	{
+		Object s = it.next();
+		System.out.println(s);
+	}
+	
+}
+
+}
+}

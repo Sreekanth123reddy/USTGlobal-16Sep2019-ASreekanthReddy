@@ -1,0 +1,60 @@
+Exceptions types : -
+	1.unchecked exception
+	2.Checked Exception
+Unchecked Exceptions : - No compilation error , it throws at run time .
+checked Exceptions : Compiler Checks at compile 
+			
+							Throwable
+							       |
+							Exception
+   							      |
+____________________________________________________________________________________________________________________________
+|					|									|
+|->ClassNotFound			RunTimeException									Error
+Excepti0					|->NullPointerException							|->OutOfMemoryError
+|->SqlExc					|->ArithmeticException							|->StackOverFlow or LikageError
+|->IOExc					|->IndexOutOfBoundException---|--->ArrayIndexOutOfBoundException
+|-FileNotFoundE						       	       |--->StringIndexOutOfBoundException
+|->InterruptedException
+
+===============================================================================================================
+
+*Excluding RunTimeExceptions all are checked Exceptions
+*We cannot handle errors 
+
+Custom Exceptions : -
+=========================================
+
+try {    // not valid
+}
+___________
+try(Scanner  sc = new Scanner(System.in))
+{  				//valid
+}
+_________________________
+try{			//valid
+}
+catch(Exception e)
+{
+}
+______________
+try {
+} 			//valid
+finally
+{
+}
+______________
+try {
+}			//not valid
+int a =10;
+catch{
+}
+_____________
+try {
+} catch(Exception e) 	//not valid
+{
+}catch(NPE ee)
+{
+}
+___________________
+

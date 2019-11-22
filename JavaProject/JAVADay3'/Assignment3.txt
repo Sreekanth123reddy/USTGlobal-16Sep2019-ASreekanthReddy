@@ -1,0 +1,9 @@
+1.What is a method ?
+2.What are the advantages of method?
+3.what is method recursion with example ?
+4.what is a class ?
+5.What is an Object ?
+6.How to create an object ?
+7.What  are the class Members ? and different types of class members ?
+8.What is the difference between static and non-static ?
+9.What is  inheritance and explain different types of inheritance with example ?

@@ -1,0 +1,8 @@
+1 . What is method overloading ? 
+2.Can we overload static , non -static ,final methods . write with example ?
+3.Difference between constructor and method ?
+4.What is constructor ?
+5.what is construcctor overloading with example ?
+6.what is this keyword , super keyword  ?
+7.Differnce between this () and super() ?
+8.Rules for inheritance ?

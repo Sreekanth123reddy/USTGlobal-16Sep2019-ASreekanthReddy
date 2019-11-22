@@ -1,0 +1,12 @@
+ 1.what is final keyword with respt to class ,varaibles ,mthods ?
+2.what is method overrideing ? How to achive method overriding ?
+3.Rules for method overriding ?
+4.What is d/b method overloading and method overriding  ?
+5.What is abstract class ?
+6.what is abstract method ?
+7.Rules for abstract class ?
+8.What is interface?
+9.What is difference between interface and abstract class ?
+10.what is functional interface ?
+11.what is marker interface ?
+12.What are the features of abstract class and  interface ?

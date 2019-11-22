@@ -1,0 +1,43 @@
+1 . what is multitasking ?
+2 .what is process based tasking ?
+3.what is thread based tasking ?
+4.what are diffenet ways to create a thread ?
+5.which method to call to execute thread  and which method to override 
+6.why there are two different ways too create a thread ?
+7.d/b yield , join and sleep methods ?
+8.what is race condition ? how to overcome race condition ?
+9.How to overcome race condition ?
+10.what are wait() , notify() ,notifyAll()
+11.D/B wait and sleep ,wait and join , notify and notiffyAll()
+*****we can write wait , notify , notifyAll only in sychronized metods and blocks
+12.what is life cycle of thread , explain with diagram 
+
+		wait					sleep
+
+*Object class					*Thread class
+
+*pauses the execution of current		
+thread and releases the object lock	
+
+*non-static					*static	
+
+
+*it can written in sychronized blocks			*can written in any where
+
+*not necessary to pass time				*it is mandatory to pass time
+
+*It is used to overcome deadlock			*Can not used to overcome deadlock
+
+
+
+
+
+
+
+
+
+
+
+
+
+

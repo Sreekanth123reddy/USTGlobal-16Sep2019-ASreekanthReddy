@@ -1,0 +1,27 @@
+Exceptions : -  Exception is an event that occurs in the program which disrupts the flow of execution of the program. It is an runtime interruption .
+*When we handle the exception is called exception handling .
+*We should use try block  .  we will write the code of lines which cauese exception .
+*Catch block  , the possible exceeption that occur in catch block . we need to write  it in catch block
+*Once the exception occur in try block , it will go to the catch block  again it will never go to try block 
+*one try block have many number of catch blocks.
+*Highly recommended to use try , catch block if the code is not dependedent on other lines of code
+
+*whenever there is an exception JVM create the object of exception 
+*And it will throws that exception to the method which was responsible for the exception . 
+*If the JVM handles the exception , program stops the execution . 
+*If the method handles exception , program executes normally 
+
+
+*Any type of exception can be handled by following try , catch block
+
+try{
+-----
+}
+catch(Exception e)
+{
+e.printStackTrace();
+}
+
+*printStackTrace will prints what is an exception that occured in try block  .
+
+*In finally block we all close the costly resources such as database connection , scanner close

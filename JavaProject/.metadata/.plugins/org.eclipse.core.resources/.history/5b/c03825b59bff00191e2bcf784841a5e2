@@ -1,0 +1,10 @@
+package com.ustglobal.map;
+
+public class TestF {
+public static void main(String[] args) {
+	Student s1 = new Student(2, "divvya", 67.89);
+	Student s2 = new Student(1, "Pujitha", 95.3);
+	Student s3  = new Student(4,"Vaziha",87.4);
+	
+}
+}

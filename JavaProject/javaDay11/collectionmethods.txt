@@ -1,0 +1,19 @@
+
+1 . boolean add(Object 0) 
+2.void add(int index , Object o)
+3.boolean remove(Object 0)
+4.Object remove(int index)
+5.Object get(int index)
+6.Object set(int index , Object o)
+7.void class()
+____________________________________________
+Collections : 
+*Utility Class
+*To perform operations on collections
+*Utility Methods
+*Collections.sort() - >we should pass only generic type , we should not pass null  //return type of sort is void
+	e.g : Collections.sort(arrayList);
+*Collections.remove() - > return type is void
+________________________
+Collections - >class
+collection - >Interface

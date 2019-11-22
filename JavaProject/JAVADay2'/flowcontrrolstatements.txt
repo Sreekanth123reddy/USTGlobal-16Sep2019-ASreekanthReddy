@@ -1,0 +1,10 @@
+Flow Control Statements : -
+1.switch(expression)
+{
+	case value;
+	break;
+	. . . .
+}
+
+* Byte , short , int , char , string are the things only to pass as a parameter to the switch case
+*we can not pass boolean , double , float  

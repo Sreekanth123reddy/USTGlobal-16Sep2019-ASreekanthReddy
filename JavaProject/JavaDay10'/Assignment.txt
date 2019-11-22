@@ -1,0 +1,5 @@
+1.What is lambda expressions , what are the advanatges of lambda expressions with example ?
+2.What is singleton class ?Rules to be followed for singleton class with an example ?
+3.what is immutable class , rules to be foollowed for immutable class with an example ?
+4.Write the hierarchy of collection ?
+5.what is collection frammework ,advantages of collections ,why we need to use collection

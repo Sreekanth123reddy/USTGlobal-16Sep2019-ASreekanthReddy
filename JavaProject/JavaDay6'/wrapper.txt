@@ -1,0 +1,41 @@
+*Java is not pure object oriented ( 99%) because primitive , static 
+*For 99 percent pure , we are using primitive into wrapper
+*For each primitive data type there is coressponding wrapper class
+
+	byte 	->	Byte
+	short	->	Short
+	int	->	Integer
+	long	->	Long
+	float	->	Float
+	double	->	Double
+	char	->	Character
+	boolean	->	Boolean	
+
+*conversion from primitive to non-primitive is auto boxing . viceversa is auto unboxing .
+
+
+parseMethod : 
+	conversion of string type into primitive data type
+	parseBoolean("false")
+	parseInt() , parseDouble() ,parseFloat() , parseByte() ,parseShort() , parseLong()
+
+Hierarchy of Wrapper classes :
+				Object
+				    |
+			__________________________________________
+			|		|			|
+			^		^			^
+			|		|			|
+			Byte		Character			Boolean
+			Short
+			Integer
+			Long
+			Float
+			Double
+
+*Outer classes can be declared as public and default , can not be declared as protected and private.
+
+Inner class :
+	class inside the class.
+	can be public 
+Outer class may be public or default

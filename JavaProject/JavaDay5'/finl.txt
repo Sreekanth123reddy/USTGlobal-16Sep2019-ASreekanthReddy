@@ -1,0 +1,16 @@
+*Can we create object for final classes ?
+ 	->YES 
+  	e.g : String Class
+*Final methods can be inherited , but we can  not over ride.
+*Final classes can not be extended 
+_____________________________________
+*Coding Standard for final : 
+	use upper case for final
+	e.g : final int PI = 3.14 ; 
+_____________________________________
+*Can we write business logic inside the constructor ?
+* yes , but its not a good practise to write logic inside the constructor .
+*Since object creation is costly ,when even we want to call constructor its mandatory to create object
+__________________________________________________________________
+*Its mandatory to initialize final variables.
+*final varaibles can be initialized with the constructor .

@@ -1,0 +1,32 @@
+Package : - 
+* com , org 
+*com - >commercials , business
+*org - > trust , organizations
+*edu ->education
+________________________
+com>company_name>project_name>module_name 1 , module_name 2
+					|_>sub_module 1
+					|__>Sub_module2
+
+e.g :- 
+FLIPKART -----
+	        |-->com--
+	                        |---->USTGlobal--
+				     |-->flipkart--
+					          |--admin -->access.java
+				   	          |--user |-->payment.java
+				                            |	       |-->login.java	
+					          |--owner--|-->upload.java
+
+*Without package we should not write the code 
+*Package is a folder or directory
+
+JAVA--|
+           |-->lang ->String.java
+	         ->Object.java
+           |-->util ->ArrayList.java
+
+*For accessing other package classes we need to use fully qualified class name or  we need to import the package
+*Import statement should be after the package
+*Java lang package doesnt needed to import , by default compiler will write  the import statement
+						

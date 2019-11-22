@@ -1,0 +1,42 @@
+Method Overloading : - 
+____________________
+*Multiple methods having same method name
+*Might  differ in number of arguments or type of arguments
+   	->P S V add(int a , int b) 
+   	-> P S V add(double a , int b)
+	->P S V add(int a ,int b, int c)
+
+* Below declarations not possible in method overloading
+ 	->P S V add(int a , int b)
+	->P S V add(int b ,int a)
+*Below declarations is also not possible , in method overloading return type does'nt matter .
+	->P S int add(int a, int b)
+	{
+		return a+b;
+	}
+	->P S long add(int a ,int b)
+	{
+		return a+b;
+	}
+*Main methods can also be Overloaded
+	* 	public static void main(String[] args) 
+		{
+		}
+	*	public static void main(int a)
+		{
+		System.out.println("Main method can also be oveloaded");
+		}
+*We can not write meethod inside the method
+                    
+*For all integers(byte,short ,long,int) the default value is  0
+*For all decimals (float and double)the default value is 0.0
+*For char the default value is  ' '
+*For String ,the default value is null
+*For boolean the default value is 'false'
+
+*Local varaibles must be initialzed before using that varaible . There is no default value for local variable.
+*Local variables can not be static ,public ,private ,protected .Only it should be final .
+*If we have same variables in global and local , first it should give prefarance to local variable.
+
+*Instance Variables are non -static .Without creating object the default values not initialized to instance variables.
+

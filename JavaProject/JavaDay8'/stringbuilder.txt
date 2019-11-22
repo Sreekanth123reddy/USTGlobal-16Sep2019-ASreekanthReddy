@@ -1,0 +1,7 @@
+StringBuilder :
+*It is also final class
+*It is also mutable
+*Present in java.lang package
+-----------
+*All the methods in String Buffer are Synchronized , all the methods in String Builder are not Synchronized.
+*String Buffer is thread Safe , String builder are not thread Safe .

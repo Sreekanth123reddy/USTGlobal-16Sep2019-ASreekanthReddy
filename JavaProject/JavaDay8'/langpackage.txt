@@ -1,0 +1,52 @@
+Java.lang Package : 
+*No need to write the import statement .
+*
+	class Test
+	{
+	public static void main(String aa[])
+	{
+	system.out.println("Hello world");
+	}
+	}
+	->There are number of classes present in above  code , they are :
+								1.Object class
+								2.System class
+
+								3.String class
+*Object class is the super most class in java
+*
+	class A
+	{
+	void m1()
+	{
+	}
+	}
+	class B extends A
+	{
+	public void m2()
+	{
+	}
+	}
+	
+*class B can not extend object class 
+*valid  :
+	A a = new A();
+	B b =new B();
+	A a =new B();
+	Object o =new B();
+	Object o1=new A();
+*Any java classes are child of Object class , we can hold any class with reference of object class
+* 11 methods :
+*public int hashCode()
+*public string  toString()
+*public boolean equals(object o1)
+*public final void wait()  throws InterruptException
+*public final void wait(long ms) throws InterruptException
+*public final void wait(long ms ,int ms) throws InterruptException
+*public final void notify()
+*public final void notifyAll()
+*public final class getClass()
+*protected void finalize() throws Throwable
+*protected  Object clone() throws cloneNotSupportedException
+
+->We can override 5 methods  hashCode , toString ,equals ,finalize() ,Object Clone()

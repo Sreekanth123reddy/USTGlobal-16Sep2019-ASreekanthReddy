@@ -1,0 +1,27 @@
+package com.ustglobal.streams;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class TestF {
+public static void main(String[] args) {
+	ArrayList<Employee> al = new ArrayList<Employee>();
+	Employee e1 = new Employee(101, "A Sreekanth Reddy");
+	Employee e2 = new Employee(98 , "Yash");
+	Employee e3 = new Employee(102 , "Jayapavan");
+	Employee e4 = new Employee(105 , "Teja");
+	al.add(e1);
+	al.add(e2);
+	al.add(e3);
+	al.add(e4);
+	
+	Comparator<Employee> cmp = (o1,o2) ->{
+		return o1.name.compareTo(o2.name);
+	};
+	 List<Employee> l = al.stream().sorted(cmp).collect(Collectors.toList());
+	
+	
+}
+}

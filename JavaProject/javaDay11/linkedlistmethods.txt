@@ -1,0 +1,9 @@
+Object peek()  returns head element
+Object peekFirst() returns head element
+Object peekLast()  returns last element
+Object  pull()  returns and remove head element
+Object pullFirst()  ' ' 
+Object pullLast(()
+_______________________________________
+*We follow Doubly linked list
+*each node having previous element and next element address .

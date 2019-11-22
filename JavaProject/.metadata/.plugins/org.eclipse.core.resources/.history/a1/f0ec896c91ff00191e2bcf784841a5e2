@@ -1,0 +1,13 @@
+package com.ustglobal.map;
+
+import java.util.HashMap;
+
+public class TestB {
+	public static void main(String[] args) {
+		HashMap hm = new HashMap();
+		hm.put("Sree Divya", 7092122352L);
+		hm.put("Bujji", 9959920015L);
+		hm.put("Sreenath", 9666309621L);
+	}
+
+}

@@ -1,0 +1,14 @@
+Unary Operators : -
+Increment Operators :  
+	int a = 10;
+	10++; //unexpected type error
+	a++; //11
+	
+Pre Increment :
+int a = 10;
+++a; //11
+Post Increment :
+int a = 10 ;
+int  b = 20 ;
+int c= a++ + b;
+decrement Operators : 

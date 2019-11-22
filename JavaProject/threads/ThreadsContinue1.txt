@@ -1,0 +1,15 @@
+*For getting thread name  :Thread.currentThread().getName();
+*For changing thread name :  		t1.setName("Golu");
+*retyrn type of get name is string 
+_______________________
+Priority  :
+*It ranges from 1 to 10 
+*Thread.currentThread.getPriority()
+*Thread.currentThread.setPriority()
+*Child threads have same priority of main thread 
+*MIN_PRIORITY  - 1 , DEFAULT PRIORITY - 5
+*MAX_PRIORITY - 10
+*we can get the id , we can not set id method e.g : Thread.currentThread.getId()
+
+__________________
+Yield :for stopping the current  execution and pass to the next priority

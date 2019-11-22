@@ -1,0 +1,10 @@
+package com.ustglobal.pausing;
+
+public class TestThread {
+public static void main(String[] args) {
+	System.out.println("Main Started");
+	
+	MyThread t = new MyThread();
+	t.start();
+}
+}

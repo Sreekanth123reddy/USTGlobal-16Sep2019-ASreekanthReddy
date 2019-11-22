@@ -1,0 +1,16 @@
+package com.ustglobal.sorting.list;
+
+import java.util.PriorityQueue;
+
+public class TestJ {
+	public static void main(String[] args) {
+		PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+		pq.add(12);
+		pq.add(24);
+		pq.add(35);
+		pq.add(45);
+		pq.add(1);
+		pq.offer(1);
+	}
+
+}

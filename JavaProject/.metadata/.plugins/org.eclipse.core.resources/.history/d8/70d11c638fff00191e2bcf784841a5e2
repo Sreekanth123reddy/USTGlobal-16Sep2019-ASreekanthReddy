@@ -1,0 +1,22 @@
+package com.ustglobal.map;
+
+import java.util.HashMap;
+
+public class TestA {
+public static void main(String[] args) {
+	HashMap hm = new HashMap();
+	hm.put("Sree Divya", 7092122352L);
+	hm.put("Bujji", 9959920015L);
+	hm.put("Sreenath", 9666309621L);
+	
+	
+	System.out.println("Data "+hm);
+	
+	hm.put("Sree Divya", 63004589L);
+	System.out.println("After modify :"+hm);
+	
+	hm.put("Dimple", 898989);
+	hm.compute(("Pimple",898989 )
+	
+}
+}

@@ -1,0 +1,15 @@
+package com.ustglobal.exceptions;
+public class PVR {
+void book()
+{
+	try
+	{
+		System.out.println("Booking started");
+		System.out.println(10/0);
+		
+	}
+	catch (ArithmeticException e) {
+			throw e;
+	}
+}
+}

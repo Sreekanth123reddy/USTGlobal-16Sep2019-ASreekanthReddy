@@ -1,0 +1,28 @@
+						<<Iterable>>					
+						        |
+						<<Collection>>
+						           |	
+         ______________________________________________________|_________________________________________
+                           |					        |					|
+	<<Set>>	-------------|HashSet	---		<<List>>					<<Queue>>	
+	             |			|		|					|	|	
+	<<SortedSet>>	LinkedHashSet     --------------------------------				Dequeue	--------------AbstractQueue<-PriorityQueue	
+	             |				|	|	|					
+	<<NavigableSet>>			ArrayList	Vector	LinkedList
+	            |					|
+	     TreeSet				Stack
+	
+
+
+______Extends  ------>implements
+
+
+
+
+
+ListIterator   :
+	boolean hasNext()
+	Object next()
+	void remove()
+	boolean hasPrevious()
+	Object previous()

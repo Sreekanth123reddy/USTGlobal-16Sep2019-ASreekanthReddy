@@ -1,0 +1,16 @@
+1.what is package ?
+2.what are the advantages of using package ?
+3.Why we need to create the package , writee general structure tto create the package
+4.What is fully classified class name
+5.what is static import , when to use static import 
+6.what is block  SIB ,IIB
+7.D/B SIB ,IIB
+8.what is parsing ?
+9.what is type casting , types of type casting 
+10.what is primitive type casting , with examples
+11.what is refernce type castin
+12.what is class cast exception?
+13what are wrapper classes ? what is the hierarchy of wrapper classes 
+14.When does the parse methods throws number format exception
+_____________________________________________________________
+JAVA CODing CONVERSIONS (20 PAGES)

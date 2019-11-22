@@ -1,0 +1,10 @@
+package com.ustglobal.exceptions;
+
+public class TestG {
+public static void main(String[] args) {
+	System.out.println("Main Started");
+	PayTm p = new PayTm();
+	p.book();
+	System.out.println("Main ended");
+}
+}

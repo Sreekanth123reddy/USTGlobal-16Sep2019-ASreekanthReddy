@@ -1,0 +1,14 @@
+package com.ustglobal.multithreading;
+
+public class TestB {
+public static void main(String[] args) {
+	System.out.println("Main-starts");
+	MyRunnable m = new MyRunnable();
+	Thread t1= new Thread(m);
+	t1.start();
+	
+	System.out.println("main-ends");
+	
+	
+}
+}
