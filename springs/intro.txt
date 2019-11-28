@@ -1,0 +1,8 @@
+Bean Creation 
+Types of ApplicationContext
+Scope
+wiring
+autowiring
+
+
+instatiation , init , usageofbean , ,destroy

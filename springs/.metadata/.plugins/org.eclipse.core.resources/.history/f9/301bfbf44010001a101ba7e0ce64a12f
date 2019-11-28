@@ -1,0 +1,14 @@
+package com.ustglobal.springcore.config;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ustglobal.springcore.di.Hello;
+
+public class AnnotationApp {
+public static void main(String[] args) {
+	ApplicationContext applicationContext = 
+			new AnnotationConfigApplicationContext(ConfigurationClass.class);
+	applicationContext.getBean(Hello.class);
+}
+}

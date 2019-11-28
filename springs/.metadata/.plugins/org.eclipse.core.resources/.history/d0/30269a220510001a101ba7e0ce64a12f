@@ -1,0 +1,10 @@
+package com.ustglobal.demo.util;
+
+import com.usrglobal.demo.dto.A;
+import com.ustglobal.springs.dao.I;
+
+public class Manager {
+   public I getI() {
+	return new A();
+}
+}

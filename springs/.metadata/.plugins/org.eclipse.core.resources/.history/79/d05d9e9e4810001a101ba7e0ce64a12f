@@ -1,0 +1,7 @@
+package com.ustglobal.springpractise.di;
+
+public class Book {
+ private Author author;
+ private String  bname;
+ private int price;
+}

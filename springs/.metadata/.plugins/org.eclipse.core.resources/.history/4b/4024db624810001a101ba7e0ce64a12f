@@ -1,0 +1,6 @@
+package com.ustglobal.springpractise.di;
+
+public class Author {
+private String name;
+private  String penName;
+}
