@@ -1,0 +1,22 @@
+package com.ust.retailermaintenancesystem.mapping;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Data
+@Entity
+@Table(name="product")
+public class ProductBean {
+	@Id
+	@Column
+	private String Pid;
+	
+	@Column
+	private String PName;
+	@Column
+private String cost;
+
+
+}

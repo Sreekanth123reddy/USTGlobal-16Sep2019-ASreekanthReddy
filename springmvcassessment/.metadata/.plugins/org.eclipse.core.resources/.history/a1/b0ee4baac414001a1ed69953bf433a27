@@ -1,0 +1,11 @@
+package com.ust.retailermaintenancesystem.dao;
+
+import com.ust.retailermaintenancesystem.dto.RetailerBean;
+
+public interface RetailerDAO {
+	public RetailerBean login(int id,String password);
+	public int register(RetailerBean bean);
+	public RetailerBean searchRetailer(int id);
+	public boolean updatePassword(RetailerBean bean);
+
+}

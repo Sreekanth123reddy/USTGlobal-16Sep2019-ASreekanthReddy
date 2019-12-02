@@ -1,0 +1,12 @@
+package com.ust.retailermaintenancesystem.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.ust.retailermaintenancesystem.service.RetailerService;
+
+@Controller
+public class RetailerController {
+	@Autowired
+	private RetailerService service ;
+}

@@ -1,0 +1,46 @@
+<%@page import="com.ust.retailermaintenancesystem.dto.OrdersBean"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<fieldset>
+		<legend> Your Orders</legend>
+		<form action="./search">
+			<table>
+				<tr>
+					<td>ID:</td>
+					<td><input type="number" name="id"> </td>
+					<td><input type="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+<%
+OrdersBean product = (OrdersBean)request.getAttribute("bean");
+%>
+<%
+if(product!=null){
+%>
+<table>
+<tr>
+<th>Id</th>
+<th>ProductID</th>
+<th>ProductName</th>
+
+<tr>
+<td><%=product.getId() %></td>
+<td><%=product.getPid() %></td>
+<td><%=product.getName() %></td>
+</tr>
+</table>
+<%
+}
+%>
+<h3>${msg}</h3>
+</body>
+</html>

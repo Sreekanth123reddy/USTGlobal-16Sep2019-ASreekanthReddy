@@ -1,0 +1,8 @@
+package com.ust.retailermaintenancesystem.dto;
+
+public class ProductBean {
+private int id;
+private String Pname;
+private String price;
+
+}

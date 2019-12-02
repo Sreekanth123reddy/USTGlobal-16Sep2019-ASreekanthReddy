@@ -1,0 +1,10 @@
+package com.ust.retailermaintenancesystem.dto;
+
+public class OrderProduct {
+private int oid;
+private String name;
+private int quatity;
+private int price;
+private int total;
+
+}

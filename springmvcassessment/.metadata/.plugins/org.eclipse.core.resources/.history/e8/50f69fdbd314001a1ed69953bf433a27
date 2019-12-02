@@ -1,0 +1,5 @@
+ackage com.ust.retailermaintenancesystem.mapping;
+
+public class ProductCart {
+
+}
