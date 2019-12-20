@@ -1,0 +1,3 @@
+17,UshaSree,12000,F
+18,Deepthi,100000,F
+19,ManjunathNaidu,12000,M

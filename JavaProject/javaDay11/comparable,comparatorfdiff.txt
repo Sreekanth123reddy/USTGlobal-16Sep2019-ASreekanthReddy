@@ -1,0 +1,12 @@
+Comparable 					Comparator
+
+*Natural Sorting Order			*We can write Customized Sprting
+
+*One abstract method			*Two Abstract method 
+compareTo(Object o)			compare(Object o1 ,objecto2); , boolean equals(Object o);
+
+*It is present java.lang package		*java.util package
+
+*String Class and wrapper classes by		*Does not implement
+default comparable			
+

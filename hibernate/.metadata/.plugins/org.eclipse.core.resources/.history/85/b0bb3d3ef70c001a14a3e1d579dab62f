@@ -1,0 +1,7 @@
+package com.ustglobal.jpawithhibernate.onetomany;
+
+public class PensilBox {
+private int pricebox;
+private String color;
+private Pensil pensil;
+}

@@ -1,0 +1,78 @@
+public int hashCode()
+
+ ->It returns hashCode of the given Object .Based on the address of the object  they will generate hashCode in the form integer .
+->In java we can never find object address .
+
+public string toString() : -
+->It returns the textual format of the Object .
+1 .Fully qualified class name 
+2. at the rate
+3.Hexa Decimal Format of hash code .
+	e.g : com.ustglobal.objectclass.Marker@6442b0a6
+
+Use of hashCode and toString  : -
+
+_________________________________________________
+public boolean equals(Object o)
+=>To compare two  objects data equal or not (Object Content) 
+Pen p1=new Pen();
+pen p2 =  new Pen();
+if(p1.equals(p2))
+equals : It will check two objects hashCode equal or not
+_________________________________________
+public final class getClass() :
+Will return a type of class
+____________________
+5 ways of creating object in java
+1)new
+2)newInstance
+3)class.forName(fully qualified class name)
+4)cloning
+5)Deserialization
+class Remote
+{
+main
+{
+Remote r = new Remote();
+Class c = r.getClass();
+Object o = c.newInstance(); // return empty object type referance
+Remote q = (Remote)O;
+}
+}
+______________________________
+public void finalize() throw Throwable
+
+*Garbage collector will remove object from the heap memory , when  it is not usage .
+*Garbage collector will call finalize the method , before going to delete (Clean up process)
+*It is deplicated , developers should not use .
+
+______________________________________
+protected object Clone() throws ClassNotSupportedException
+*clone means copy
+*Clone  will copy all the data and return new Object
+*return type is Object
+*yes , we  can use clone without overriding
+__________
+Marker interface will intimate JVM to allow to create copy of the object.
+
+________________________
+String class :
+*Present in java.lang.String
+*It is declared as final
+*We can create object to final class
+*Can not extend final class
+*String constant pool : 
+	The objects of strings get created in string constant pool . Its separate memory in part of heap memory .
+*String s1 = "Aishu " ;
+*String s2 ="deepthi  sunaina";
+* Above will stored in String constant pool
+*String s3 = new String("Aa"); 
+*String s4=new String("Aa");
+*String s5 ="deepthi sunaina" ;
+*For each new keyword it will create object
+*S2,S5 are same , so in string constant pool no duplicates are allowed .content already present then it will refer to same object .
+*s1 = "anushka setty"
+*Aishu will removed , anushka setty will be added.
+*String class is immutable : Once string objects are creted we can never modify the string objects . If we modify the content  ,new object will creted .
+refernce variable will leave the old object and add it point to the new object
+

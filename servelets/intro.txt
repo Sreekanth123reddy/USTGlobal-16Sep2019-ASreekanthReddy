@@ -1,0 +1,17 @@
+jar : 
+java archive
+*it is collection of .class file
+ 
+
+war : 
+*Combination of jar and some other web resources .
+war-web archive 
+
+ear :
+ For EJP projects 
+enterpise archive , this will have war+extra configuraation resources
+now  a days we are not using EJP
+
+
+*war files can be read by server only 
+*Browsers can understand only .html file

@@ -1,0 +1,7 @@
+Break : Break statements can be used only with switch or loops
+
+Methods : -
+	return_type method_name(parameters)
+	{
+	 // logic 
+	}  

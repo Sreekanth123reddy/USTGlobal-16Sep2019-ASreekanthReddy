@@ -1,0 +1,55 @@
+Blocks : 
+* Any statements which are return inside the  curly braces 
+SIB -->static initialization Block
+IIB- ->Instance initialization blocks
+
+Static initialization block : -
+	*to initialize the static variables or static mebers of the classs . Inside non-static(instance) varaibbles will not execute
+class Demo
+{
+static int a; 	// 0 default value
+
+{
+ a =10;
+}
+}
+
+*When ever class loads , static block get executed when ever class loads to the memory . (class loading) 
+*Its not manedatory to create object to execute static block , its get executed only once .
+*Static blocks excuted from top to bottom .
+*Its get excuted before constructor , after all the static blocks get excuted only constructor will excute 
+*Non-static varaibles cannot be initialized inside the static blocks
+*If we wont use static  before usage of blocks , the block will execute ,number of times object is created
+
+Instance initialization block :
+*To initialize thee instance varaibles as well as static varaibles inside IIB
+*We should not use static block
+*IIBs will execute only when we create the object to the class
+*How many times we create object , that much time  IIB's will execute
+
+public class TestB 
+{
+	static int b;
+	int a;
+	{
+		 a = 20;
+		 b = 30;
+		 System.out.println("non-static block 1");
+	}
+	{
+		System.out.println("non-static block 2");
+	}
+	public static void main(String[] args) {
+		System.out.println("main-started");
+		TestB obj = new TestB();
+		TestB obj1 = new TestB();
+		System.out.println("a Value is "+obj.a+"  b value is "+b);
+		___________________________________________________
+		System.out.println("main -ended");
+	}
+}
+
+*Local varible does not contain any access specifier , only having final access specifier 
+*And also we can not declare static to the local variable
+*We can not use abstract to the variable .
+*all the non-static blocks are added to the constructor  , before going to execucte .

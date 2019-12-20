@@ -1,0 +1,37 @@
+*James Gasling -1996
+*Green Talk was the first name and extension was .gt
+*Oak was second name
+*And then renamed to JAVA
+*Sun microsystems took over JAVA and then maintained
+______________________________
+Additional Features :- 
+*No Pointers
+*Support OOPs
+*Platform indeapendent .
+*Robust ->In c ,c++ ,we should only allocate the memory , we should only to manage the memory but in Java it will done 
+	memory management by its own , developer wont do any thing on memory management
+*Portable ->Write once run any where (WORA)
+*English Statements
+*Simple 
+*No Prerequisite  to learn JAVA 
+*Open Source ->given the source code to any one
+*It supports Multi threading
+
+
+_________________________________________
+open soucre ->Everything we can see the source code , free source ->Dont Provide the code, paid source ->Money , give code
+_________________________
+*In 2005 Oracle took over the Java (Money Minded , from java  11 on wards we need to pay the money for getting source code)
+*Java 1.1 ,1.2,1.3,1.4,5,6,7,8,9,10,11,12,(13)
+*Java 8 is the major version ->we will use Jave 8
+________________________________________________
+*For Developing web applications , we should install JDK(Java Development Kit)
+*For Running applcations  we  can use JRE (Java Run time Environment)
+*JVM(Java Virtual machine)
+*JIT (just in time compiler) ->convert Java language into binary language
+_____________________________________________________________
+
+For compilation :
+javac filename.java
+For running :
+java filename

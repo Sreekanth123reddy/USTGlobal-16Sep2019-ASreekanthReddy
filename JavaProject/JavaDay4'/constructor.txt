@@ -1,0 +1,42 @@
+Constructor : 
+*special type of method which has same name as class name
+*No return type.
+*No final ,  abstract , static beside the constructor
+*Access modifier like public , private  ,protected can also be supported.
+*When ever we create object of a class , then only constructor can execute.
+*Constructor can not be called explicitely ,through object reference .
+*Compiler will write the default constructor , if and only if we dont write any constructor .
+* Two types - >
+		1.Default Constructor 		2.User Defined Constructor - > 1. Zero parameterized constructor
+									  2.Parameterized Constructor
+
+* default constructor is not equal to the zero parameterized constructor
+*constructors are used to initialize the instance varaibles of the class , while cretion of object
+*Constructor is not responsible for creating the object , only new keyword is responsible
+*We can not use this keyword in static methods .
+
+Constructor Overloading : -
+	Multiple constructors which have same name as class name , but having number of  arguments and type of arguument .
+
+super() ,this()  :- 
+*Can  be only used in constructor
+*It should be thee first executable statement
+*We can write only one statement in one constructor .
+
+
+*Final , static , non -static methods can be overloaded .
+
+	SUPER() ,THIS() 					super , this
+
+* Can be only used in constructor			*Can be used other than static method
+*call constructor from one constructor			*used to call variables and methods
+*It should be always first statement			*This can be used anywhere except static method
+
+
+Inheritance : -
+*We can not inherit final classes 
+*We can inherit final methods , final variables but can not be changed
+*We never inherit constructor , since it is not a class member
+
+
+

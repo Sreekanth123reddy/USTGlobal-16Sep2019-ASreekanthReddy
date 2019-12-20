@@ -1,0 +1,9 @@
+package com.ustglobal.springcore.config;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class XMLComponentScanApp {
+public static void main(String[] args) {
+	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+}
+}

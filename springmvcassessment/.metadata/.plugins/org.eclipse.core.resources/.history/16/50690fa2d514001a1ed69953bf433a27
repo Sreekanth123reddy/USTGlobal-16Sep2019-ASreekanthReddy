@@ -1,0 +1,44 @@
+package com.ust.retailermaintenancesystem.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ust.retailermaintenancesystem.dao.RetailerDAO;
+import com.ust.retailermaintenancesystem.dto.ProductBean;
+import com.ust.retailermaintenancesystem.dto.RetailerBean;
+@Service
+public class RetailerServiceImpl implements RetailerService {
+	@Autowired
+	private RetailerDAO dao ;
+	@Override
+	public RetailerBean login(int id, String password) {
+		return dao.login(id, password);
+	}
+
+	@Override
+	public int register(RetailerBean bean) {
+		return dao.register(bean);
+	}
+
+	@Override
+	public ProductBean searchRetailer(int id) {
+		return dao.searchRetailer(id);
+	}
+
+	@Override
+	public boolean updatePassword(int id, String password) {
+		return dao.updatePassword(id, password);
+	}
+
+	@Override
+	public void cart() {
+			
+		
+	}
+
+	@Override
+	public void displayOrders() {
+		
+	}
+
+}

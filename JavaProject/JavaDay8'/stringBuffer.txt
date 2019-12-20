@@ -1,0 +1,12 @@
+String Buffer :
+*It is also final class
+*java.lang package
+*Mutable
+*When ever we modify String object , it create new object to overcome the string problem String buffer is introduced .
+*We should create object of stringbuffer with new keyword only .
+ -->StringBuffer sb1 = new StringBuffer("Sruthi") ;
+-->sb1.append("xyz");
+->In above sb1 will  modify from sruthi to xyz .
+->String class extends Object Class is calles Single level inheritance .
+
+_____________________________

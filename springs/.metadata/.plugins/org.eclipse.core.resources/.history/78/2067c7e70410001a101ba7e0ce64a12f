@@ -1,0 +1,7 @@
+package com.ustglobal.demo.didemo;
+
+public class MainClass {
+public static void main(String[] args) {
+	
+}
+}

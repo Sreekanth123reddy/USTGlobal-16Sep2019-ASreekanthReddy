@@ -1,0 +1,22 @@
+<div class="container-fields">
+    <h2>Login Here</h2>
+    <form [formGroup]="loginForm">
+        <div class="form-group">
+            <label>Enter User Name</label>
+            <input formControlName='username' type="text" name="username" id="un" class="form-control col-md-3">
+            <div *ngIf="username.touched && username.invalid">
+                    <p *ngIf="username.errors.required" class="text-danger">*This field is required</p>
+                    <p *ngIf="username.errors.unique" class="text-danger">*username Already exists</p>
+
+                   </div>
+        </div>
+        <div class="form-group">
+            <label >Enter password</label>
+            <input formControlName='password' type="password" name="password" id="pw" class="form-control col-md-3">
+            <div *ngIf="password.touched && password.invalid">
+                    <p *ngIf="password.errors.required" class="text-danger">*This field is required</p>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled] ="loginForm.invalid">login</button>
+    </form>
+</div>

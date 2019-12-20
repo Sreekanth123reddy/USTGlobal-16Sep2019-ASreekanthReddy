@@ -1,0 +1,12 @@
+Map 	- > Interface
+	When ever we want to strore key ,value pair
+
+
+*put(object key , object value)	e.g	:- put("Sri Divya" , 7609815658);
+	
+*If we try to add same objet pair   put("Sri Divya" , 89546712); ->It will modify the old  value , but key does't change
+
+*Does not preserve any insertion order s ,
+*Key cant be duplicated , if we try the value will change 
+
+*Each key ,value pair is called entry.

@@ -1,0 +1,130 @@
+.topnav{
+    background-color: black;
+    height: 70px;
+    }
+    
+    td{
+        color: white;
+        height: 60px;
+    }
+    #img1{
+        height: 400px;
+    }
+    .main-content img{
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+    #h1{
+        
+        font-size: 60px;
+        font-weight: 70px;
+    }
+    #h1tag2{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    #p1tag{
+        font-size: 30px;
+    }
+    #btn{
+        height: 70px;
+        width: 400px;
+    }
+    #ptag2{
+        font-size: 20px;
+        text-align: center;
+        font-weight:10px;
+    }
+    .card{
+        height: 300px;
+    }
+    .fa-apple , .fa-facebook , .fa-adn ,.fa-google ,.fa-facebook-messenger,.fa-linkedin{
+        color:pink;
+        
+    }
+    #h4tag{
+        font-size: 30px;
+    }
+    #h1l{
+        text-align: center;
+    }
+    #btn2{
+       
+        height: 70px;
+        width: 400px;
+        
+    }
+    #h1c{
+        text-align: center;
+        font-size: 30px;
+    }
+    #pl{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 30px;
+        letter-spacing: 2px;
+    }
+    .card1{
+        padding: 35px;
+        height: 300px;
+        width: 300px;
+        box-shadow: 4px 4px 4px 0px rebeccapurple;
+    }
+    #gallary1{
+        width: 250px;
+        height: 250px;
+     }
+     #gallary2{
+        width: 250px;
+        height: 250px;
+     }
+     #gallary3{
+        width: 250px;
+        height: 250px;
+     }
+     .card-text{
+         font-size: 25px;
+     }
+     #h2end{
+         text-align: center;
+         font-weight: inherit;
+     }
+     #foot{
+         padding: 0px;
+         text-align: center;
+         padding-bottom: 3em;
+         background: #111;
+         }
+     
+        section {
+            display: block;
+        }
+    #btm{
+        color: white;
+    }
+    #btm1{
+        color :#888;
+    }
+    #name{
+        background-color:rgba(0, 0, 0, 0.123);
+        color: white;
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    #subject{
+        width: 700px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    #ta{
+        background-color: rgba(0, 0, 0, 0.123);
+        color: white;
+        width: 700px;
+        border-radius: 10px;
+    }
+    #h1end{
+        color: white;
+    }

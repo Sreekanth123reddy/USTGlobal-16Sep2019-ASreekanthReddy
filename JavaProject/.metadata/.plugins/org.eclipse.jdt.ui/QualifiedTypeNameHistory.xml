@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.ustglobal.multithreading.MyRunnable"/>
+<fullyQualifiedTypeName name="com.ustglobal.multithreading.MyThread"/>
+<fullyQualifiedTypeName name="com.ustglobal.thread.properties.MyThread"/>
+<fullyQualifiedTypeName name="com.ustglobal.thread.properties.MyPriorityThread"/>
+<fullyQualifiedTypeName name="com.ustglobal.thread.properties.MyIdThread"/>
+<fullyQualifiedTypeName name="com.ustglobal.pausing.MyThread"/>
+<fullyQualifiedTypeName name="com.ustglobal.pausing.Counter"/>
+<fullyQualifiedTypeName name="com.ustglobal.pausing.MyJoinThread"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

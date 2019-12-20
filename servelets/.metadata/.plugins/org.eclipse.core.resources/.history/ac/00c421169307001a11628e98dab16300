@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="" method="post">
+		<table align="center">
+			<tr>
+				<td>Id:</td>
+				<td><input type="number" name="id"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+
+			</tr>
+			<tr>
+				<td><input type="reset" value="Reset"></td>
+				<td><input type="submit" value="Login"></td>
+			</tr>
+		</table>
+		<a href="./register.html" class="float-left"></a>
+	</form>
+</body>
+</html>

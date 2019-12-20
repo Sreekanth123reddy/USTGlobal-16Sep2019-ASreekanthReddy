@@ -1,0 +1,7 @@
+package com.ustglobal.jpawithhibernate.onetomany;
+
+public class Pensil {
+	private int price;
+	private String brand; 
+}
+

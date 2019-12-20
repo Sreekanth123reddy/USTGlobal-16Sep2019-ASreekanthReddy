@@ -1,0 +1,8 @@
+Arrays : 
+*Arrays are fixed in size .
+*It is a container object , which stores multiple values with same data type
+
+Syntax : 
+	datatype   variablename[]= new datatype[size];
+
+*We can not create array to the boolean data type;

@@ -1,0 +1,13 @@
+1.what is exception ?
+2.What are different types of exception ?
+3.How to  handle the exception ?
+4.What is throwable ?
+5.what is difference between throws and throw keyword ?
+6.what is d/b exception and error ?
+7.what is d/b checked and unchecked exception?
+8.explain the  hierarchy of exception ?
+9.Explain try , catch , throw , finally keywords
+10.what is d/b finally ,final , finalize methods ?
+11.what is polymorphism ?
+12.Late binding ?
+13.Explain th oncept of polymorphism and different types of polymorphism with examples

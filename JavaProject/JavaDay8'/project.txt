@@ -1,0 +1,24 @@
+InterView Android app : 
+*Tools Used : 
+	->Android Studio
+	->Firebase
+	->BitBucket
+*Front End :
+	XML , html ,CSS
+*Back End :
+	Java , FireBase Database
+
+Brief Introduction :
+*Our Project mainly consists of 5 modules such as  Quiz Module , Aptitude Module , Job Search Module , Job Notifycations Module ,Resume Upload Module
+*Aptitude Module :
+	*We built static web pages and configured into single folder and attached to our project . We used html and css to design
+	the web pages
+*Quiz Module : 
+	*We imported the package from the github , which was developed by another user and we added to our gradle.build file .
+	*We can update the questions from my firebase account . From firebase to the front end , the data flows in the form of  .json format
+*JobSearch Module :
+	*We integrated the webActivity and added the popular web site to it for searching by giving internet permissions in android.manifestfile
+*Job Notifycations :
+	*From the firebase database , we push the job notifycatiions and it will reach the front end with in seconds . We used HttpServer  , Client services
+ 
+	

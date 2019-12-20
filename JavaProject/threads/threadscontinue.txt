@@ -1,0 +1,23 @@
+*class implements Runnavble interface :
+
+class MyThread implements Runnable {
+	
+
+}
+*Myclass extends Thread class , the Thread class  implements Runnable 
+*We can extend the Thread class or implements the Runnable interface for creating the threads .
+*start() method is not present , if we need to use start() method we need to create the object by using Thread when our class implemeents Runnable
+
+MyThread t1 = new Thread();
+t1.start();
+
+MyRunnable r11 = new  MyRunnable();
+Thread t1= new Thread(r11);
+t1.start();
+
+
+Why we have two ways to create a Thread ?
+*If my class extends Thread class , then i can't extend any another class . we will get just behaviour of thread class
+*If my class implements Runnable interface then i can extend any another classes . Here we get both behavious of Thread class and another class behaviour
+
+*Myclass extends Thread class and also  implements Runnable  ,we will not get any error because run method already overloaded in thread class

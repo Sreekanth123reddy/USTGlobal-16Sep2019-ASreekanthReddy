@@ -1,0 +1,12 @@
+	List :  					Set
+Index Based				not index based
+
+Insertion order is mainted			Insertion order is not maintained
+
+It allows duplicates				Duplicates are not allowed
+
+Can have multiple null values			It have only one null values
+
+iterator , ListIterator will use			only iterator 
+
+			

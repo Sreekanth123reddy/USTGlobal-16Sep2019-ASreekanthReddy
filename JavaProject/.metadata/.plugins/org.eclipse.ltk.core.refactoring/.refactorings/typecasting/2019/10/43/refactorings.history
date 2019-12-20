@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;typecasting/src/com/ustglobal/typecasting&apos; to &apos;primitive&apos;" description="Rename resource &apos;typecasting&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/ustglobal/typecasting" name="primitive" stamp="1571910212363" updateReferences="true"/>
+</session>

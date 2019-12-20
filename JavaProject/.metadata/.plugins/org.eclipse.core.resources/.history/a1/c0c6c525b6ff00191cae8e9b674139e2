@@ -1,0 +1,8 @@
+
+public class TestE {
+public static void main(String[] args) {
+	Supplier<Student> s = () -> new Student(2,"Ajay",65.6); {
+		
+	};
+}
+}

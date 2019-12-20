@@ -1,0 +1,36 @@
+*Tight Coupling  : -
+	One refence can be hold that refence object .
+	the method takes if it takes its own class name as parameter , that can access only that class object
+*Loose couplling :
+		 one object refence can hold all of its child refences (upcasting)
+_______________________________________________________________________
+class Baby
+{
+	open(chips a)	//we can pass lays ,bingo , kurkurae
+	{
+	
+	}
+}
+_________________________________________________________________________
+Abstraction : -
+*Hiding the  business login and exposing functionality and behaviour to the user .
+
+_______________________________________________
+Has A relation : 
+a object of a member is pointing to another object  .
+
+Marker  m =  new Marker();
+
+pointer p = new Pointer();
+
+p.m.write();
+
+
+____________________
+aggregation - weak has relationship
+		one object may not depend on another object .
+		e.g : Person having marker
+		
+Composition ->strong has a relation ship
+		one object depending on another object .
+		e.g  : Car Engine  , mobile battery

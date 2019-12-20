@@ -1,0 +1,28 @@
+Data Transfer Object : 
+*Bean Object
+*Bean objects are used to transfer data from one place to another 
+*The class should be public and abstract
+*The class should have default constructor or zero param constructor
+*all variables should have private
+*Each private varaible should have getter and setter methods
+*The class should implement serilizable interface
+
+Encapsulation :
+varibles and methods are encapsulated or wrapped into  single unit is called encapsulation
+ e.g : class
+
+_________________________________________________
+
+Scnner class : 
+	Take the input from the user .
+	we will never use scanner class , we will take take data from front-end
+
+Scanner scan = new Scanner(System.in);
+sc.next()
+sc.nextLine();
+sc.nextInt();
+sc.nextByte();
+sc.nextDouble();
+sc.nextShort();
+sc.nextFloat();
+sc.nextBoolean();

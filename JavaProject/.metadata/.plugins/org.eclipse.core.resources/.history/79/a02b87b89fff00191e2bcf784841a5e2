@@ -1,0 +1,8 @@
+package com.ustglobal.map;
+
+public class TestH {
+public static void main(String[] args) {
+	Hashtable<Integer ,String> ht = new Hashtable<Integer,String>();
+	
+}
+}

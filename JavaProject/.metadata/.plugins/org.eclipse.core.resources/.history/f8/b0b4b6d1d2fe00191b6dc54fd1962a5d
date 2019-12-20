@@ -1,0 +1,13 @@
+package com.ustglobal.sorting.list;
+
+import java.util.LinkedList;
+
+public class TestB {
+public static void main(String[] args) {
+	LinkedList<Laptap> ll = new LinkedList<Laptap>();
+	Laptap lp1 = new Laptap(25000, 4, "HP");
+	Laptap lp2 = new Laptap(10000, 6, "Dell");
+	Laptap lp1 = new Laptap(100000, 12, "Mac");
+	Laptap lp1 = new Laptap(500000, 8, "Asus");
+}
+}

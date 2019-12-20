@@ -1,0 +1,11 @@
+Association : 
+Association mappings are one of the key features of JPA and Hibernate. 
+They model the relationship between two database tables as attributes in your domain model. 
+That allows you to easily navigate the associations in your domain model and JPQL or Criteria queries.
+
+
+one-to-one associations,
+many-to-one associations and
+many-to-many associations
+
+

@@ -1,0 +1,16 @@
+HashMap					Hashtable
+
+*Methods are not synchronized	*Methods are Synchronized
+
+*Not a thred safe			*Thread Safe
+
+*key ->one null			*No Single null in key and value
+and no null ,no duplicates			no  duplicates
+
+*value->multiple null , multiple duplicates	*value ->no null , multiple duplicates
+
+*Performance is high		*Performance is not high
+
+*1.2 version			*1.0 v
+
+*Not a legacy class			*Legacy class

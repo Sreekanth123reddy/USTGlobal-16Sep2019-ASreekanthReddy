@@ -1,0 +1,13 @@
+Singleton class : which has only one object
+*private constructor that no one will createe object outide the class
+*class should be public and non - abstract
+* 
+class MySingleton{
+
+}
+Rules : 
+*class should be public and non - abstract
+*Create private ,static reference variable of a class
+*Should have only one private constructor 
+*create a public  static method , which returns the instance of the class.
+ 

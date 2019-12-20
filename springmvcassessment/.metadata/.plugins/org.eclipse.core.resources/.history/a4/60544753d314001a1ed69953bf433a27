@@ -1,0 +1,16 @@
+package com.ust.retailermaintenancesystem.dto;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Data
+@Entity
+@Table(name="product")
+public class ProductBean {
+
+private String PName;
+private String Pid;
+private String cost;
+
+
+}

@@ -1,0 +1,40 @@
+Design Patterns : 
+
+Factory 
+
+Singleton
+
+Builder
+
+DAO
+
+DTO
+
+
+
+DI : For achieving loose couplig ,without using the class name 
+_______________________________
+ApplicationContext is one of the interface ,Spring framework , bean factory reloader or read only while application is running
+
+it implements 5 classes
+1.ClassPathXMLApplicationContext
+2.AnnotationConfigApplicationContext
+3.AnnotationConfigWebApplicationContext
+4.XMLWebApplication
+5.FileSystemXMLApplicationContext
+
+Spring always create a single object for all bean classes .
+
+Scope : single ton object for all bean classes .
+
+*If you want different object use scope="prototype"
+
+
+*singleton,request,session,application,prototype
+*We use singleton , prototype mostly
+*request,session,application, are scope for web applications
+
+AutoWire types : 
+byType
+byName
+Constructor

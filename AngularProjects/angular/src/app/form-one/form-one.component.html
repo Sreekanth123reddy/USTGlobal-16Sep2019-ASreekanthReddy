@@ -1,0 +1,50 @@
+<h1>Register Customer</h1>
+<hr>
+<form name="form" (ngSubmit)="f.form.valid && onSubmitCustomer()" #f="ngForm" class="col-md-4 offset-4 mt-5 card card-body" novalidate>
+  <div class="container">
+    <label for="name"><b>Emp Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" [(ngModel)]="model.name" #name="ngModel" [ngClass]="{ 'is-invalid': f.submitted && name.invalid }" required>
+    <div *ngIf="f.submitted && name.invalid" class="invalid-text">
+      <p *ngIf="name.errors.required">Name is required</p>
+    </div>
+<br>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" [(ngModel)]="model.email" #email="ngModel" [ngClass]="{ 'is-invalid': f.submitted && email.invalid }" required email>
+    <div *ngIf="f.submitted && email.invalid" class="invalid-text">
+      <div *ngIf="email.errors.required">Email is required</div>
+      <p *ngIf="email.errors.email">Email must be a valid email address</p>
+    </div>
+<br>
+    <label for="gender"><b>Gender</b></label>
+    <select placeholder="Select Gender" name="gender" [(ngModel)]="model.gender" #gender="ngModel" [ngClass]="{ 'is-invalid': f.submitted && gender.invalid }" required>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select>
+    <div *ngIf="f.submitted && gender.invalid" class="invalid-text">
+      <p *ngIf="gender.errors.required">Gender is required</p>
+    </div>
+    <br>
+
+    <label for="country"><b>Country</b></label>
+    <select placeholder="Select country" name="country" [(ngModel)]="model.country" #country="ngModel" [ngClass]="{ 'is-invalid': f.submitted && country.invalid }" required>
+      <option *ngFor="let country of countries" [value]="country.id"> {{country.name}}</option>
+    </select>
+    <div *ngIf="f.submitted && country.invalid" class="invalid-text">
+      <p *ngIf="country.errors.required">Country is required</p>
+    </div>
+    <br>
+<label for="psw-repeat"><b>Password</b></label>
+    <input type="password" placeholder="Password" name="pwd" [(ngModel)]="model.pwd" #pwd="ngModel" [ngClass]="{ 'is-invalid': f.submitted && pwd.invalid }" required minlength="6">
+    <div *ngIf="f.submitted && pwd.invalid" class="invalid-text">
+      <div *ngIf="pwd.errors.required">Password is required</div>
+      <p *ngIf="pwd.errors.minlength">Password must be at least 6 characters</p>
+    </div>
+
+    <hr>
+    <button type="submit" class="registerbtn">Register</button>
+
+  </div>
+
+ 
+</form>

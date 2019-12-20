@@ -1,0 +1,48 @@
+package com.ust.retailermaintenancesystem.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ust.retailermaintenancesystem.dao.RetailerDAO;
+import com.ust.retailermaintenancesystem.dto.RetailerBean;
+@Service
+public class RetailerServiceImpl implements RetailerService {
+	@Autowired
+	private RetailerDAO dao ;
+	@Override
+	public RetailerBean login(int id, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int register(RetailerBean bean) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public RetailerBean searchRetailer(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean updatePassword(int id, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void cart() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void displayOrders() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

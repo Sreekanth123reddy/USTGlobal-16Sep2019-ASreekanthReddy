@@ -1,0 +1,1 @@
+select * from  emp left outer join dept on emp.deptno=dept.deptno;

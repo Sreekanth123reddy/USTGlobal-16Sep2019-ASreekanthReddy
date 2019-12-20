@@ -1,0 +1,18 @@
+1.What is object class ?
+2.Explian hashCode , toString ,colne ,getClass ,equlas  method with example ?
+3.what is instance of operator ?
+4.what is string ? What is immutable object ?
+5.what are charAt,concat,contains,endsWith,equals,equalsIgnoreCase,getBytes,indexOf,isEmpty,lastIndexOf,length,replace ,replaceAll ,substring,
+trim,toLowerCase,toUpperCase ,ValueOf,toCharArray
+6.D/b stringBuffer , StringBuilder ,string
+7.D/B == , equals()
+8.What is the way to compare custom objects
+9.What is clonable
+10.What is new instance method 
+11.What is d/b clone and newInstanceMethod
+12.What are the different ways of creating objects in java .
+13.What is array ?advantages ,disadvantages
+14.D/B for loop and for each loop ?
+15.Different ways syantax to create array
+16.Write a method to receive integer type, double type ,Student type array
+17.Write a methods to return string ,int ,double ,student array

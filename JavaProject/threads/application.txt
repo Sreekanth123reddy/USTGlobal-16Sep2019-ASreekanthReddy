@@ -1,0 +1,48 @@
+Java SE :
+	we can develop only desktop of appliations .
+
+Applications : - 
+	1 .Stand alone application
+	2.web applications
+
+stand alone applications : 1 .Desktop applications 	2. Mobile applications
+
+*Using Java SE we can develop stand alone applications .
+
+Java EE : Java Enterprised Edition .
+ *Using EE we can develop web applications .
+
+Java ME : Java Micro edition or mobile edition , we can develop mobile applications
+
+*In web appplication we have two types 1 .Static applications 2 .Dynamic web application
+static web application s :-
+
+Static Resource : - The content never modified  on a web page , e.g : Music file , pdf file 
+Before making request ,it is already present .
+*If the responce is already present
+Dynamic web applicaations : 
+e.g : - Bank applications
+
+*The data generated once we make a request 
+*Data changes dynamically 
+*Dynamic resoures  :  on request data will generate 
+
+
+___________________________________
+Static web applications :
+*Having only static resources 
+Dynamic web applications :
+*It may have both static resouce and compulsory dynamic resource .
+
+
+*Servers :
+WEb server
+application server
+*Tomcat apache is web server
+*all web serevers are light weight
+
+______________
+If we get error in apache tomcat :
+*services.msc
+*Oracle , stop it  . Left Side we have option called 'stop the service '  . If we want to start the service , option called start service is there just click on it
+

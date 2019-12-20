@@ -1,0 +1,8 @@
+servlet life cycle : 
+
+*init
+*service 
+*Destroy
+
+Two Objects : HttpServletRequest ,HttpServletRespose Object 
+

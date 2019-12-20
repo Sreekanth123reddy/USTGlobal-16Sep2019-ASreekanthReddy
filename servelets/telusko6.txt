@@ -1,0 +1,9 @@
+*one servlet can call another servlet with requestDispatcher 
+*sendRedirrect() ,servlet will inform the browser that is redirecting to another servlet . e.g : net banking whn booking a ticket 
+
+servlet a: k is some data 
+->resp.sendRedirect("sq?k="+k);
+
+sevelet b:
+here k is getting some data
+int k = req.getParametr("k");

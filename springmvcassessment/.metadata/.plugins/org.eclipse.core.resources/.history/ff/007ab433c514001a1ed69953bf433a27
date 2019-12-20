@@ -1,0 +1,64 @@
+package com.ust.retailermaintenancesystem.dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceUnit;
+import javax.persistence.TypedQuery;
+
+import org.springframework.stereotype.Repository;
+
+import com.ust.retailermaintenancesystem.dto.RetailerBean;
+@Repository
+public class RetailerDaoImpl implements RetailerDAO {
+	@PersistenceUnit
+	private EntityManagerFactory factory ;
+	@Override
+	public RetailerBean login(int id, String password) {
+		String jpql = "from RetailerBean  where id=:id and password=:pass";
+		EntityManager manager = factory.createEntityManager();
+		TypedQuery<RetailerBean> query = manager.createQuery(jpql, RetailerBean.class);
+		query.setParameter("id", id);
+		query.setParameter("pass", password);
+		
+		try {
+		Retailer bean =  query.getSingleResult();
+		return bean;
+		}catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+		
+
+	}
+
+	@Override
+	public int register(RetailerBean bean) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public RetailerBean searchRetailer(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean updatePassword(RetailerBean bean) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void cart() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void displayOrders() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

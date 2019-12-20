@@ -1,0 +1,15 @@
+Private : -
+	Members declared with private can be assessed only inside the same class . 
+Default : -
+	Access the members inside the same class and inside the same package only .
+Protected : -
+	Access with in the same class and same package and if you have inheritance or extended  , we can access those members .
+Public :-
+	Through out the Project . Inside the class ,outside the class . inside the package and also outside of package
+			    /\
+		                    /	\
+			/  private_   \	Decreasing visibilty
+		                /___default_  \	^
+		             /___protected__ \ 	|
+		           / ___public______\
+

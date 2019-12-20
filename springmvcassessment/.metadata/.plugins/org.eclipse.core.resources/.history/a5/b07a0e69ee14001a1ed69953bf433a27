@@ -1,0 +1,37 @@
+package com.ust.retailermaintenancesystem.dto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="product")
+public class ProductBean {
+	@Id
+	@Column
+private int pid;
+	@Column
+private String Pname;
+	@Column
+private String price;
+	public int getPid() {
+		return pid;
+	}
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+	public String getPname() {
+		return Pname;
+	}
+	public void setPname(String pname) {
+		Pname = pname;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.ust.retailermaintenancesystem.dto;
+
+public class ProductBean {
+private String PName;
+private String Pid;
+private String cost;
+public String getPName() {
+	return PName;
+}
+public void setPName(String pName) {
+	PName = pName;
+}
+public String getPid() {
+	return Pid;
+}
+public void setPid(String pid) {
+	Pid = pid;
+}
+public String getCost() {
+	return cost;
+}
+public void setCost(String cost) {
+	this.cost = cost;
+}
+
+}

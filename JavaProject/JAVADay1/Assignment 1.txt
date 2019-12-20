@@ -1,0 +1,9 @@
+Assignment :
+1.What is Java ?
+2.what are the features of java ?
+3.What are the different kinds of java  versions available on the market ?
+4.What is JDK ,JRE ,JVM ,JIT ?
+5.What are data types ? Name different data types ?
+6.List Primitive data types along with size and range ?
+7.What are variables ?
+8.what are operators ?  List different types of operators ?

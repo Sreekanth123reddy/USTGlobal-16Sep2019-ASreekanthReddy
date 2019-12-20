@@ -1,0 +1,11 @@
+package com.ustglobal.exceptions;
+
+public class PayTm {
+	void book()
+	{
+		System.out.println("PayTm Started");
+		
+		System.out.println("Paytm ended");
+		
+	}
+}

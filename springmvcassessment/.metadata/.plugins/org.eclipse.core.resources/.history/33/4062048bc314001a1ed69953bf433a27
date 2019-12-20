@@ -1,0 +1,5 @@
+package com.ust.retailermaintenancesystem.dto;
+
+public class RetailerBean {
+
+}

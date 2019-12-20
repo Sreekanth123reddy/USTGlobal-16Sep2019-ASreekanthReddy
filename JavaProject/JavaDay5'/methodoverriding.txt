@@ -1,0 +1,13 @@
+Method Overriding : -
+__________________
+
+		*Static methods can not be overridden
+		*Final methods cannot be over riden
+
+
+Abstract 	class :-
+	
+	 
+		
+	
+	

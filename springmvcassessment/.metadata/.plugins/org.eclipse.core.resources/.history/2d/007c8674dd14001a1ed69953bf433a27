@@ -1,0 +1,18 @@
+package com.ust.retailermaintenancesystem.dto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="orders")
+public class OrdersBean {
+	@Id
+	@Column
+private int id;
+	@Column
+private int pid;
+	@Column
+private String name;
+}

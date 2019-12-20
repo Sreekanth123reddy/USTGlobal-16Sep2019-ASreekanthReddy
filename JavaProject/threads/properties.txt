@@ -1,0 +1,53 @@
+join() : 
+allows other thread for complete execution and then execute the current thread .
+sleep() :
+
+__________________________________________________________________________________________________________________________
+Yield						join						sleep
+__________________________________________________________________________________________________________________________
+
+*It pauses the execution of the current thread	   *It pauses the execution of the current thread	   	*It pauses the execution of thread for 
+and allows other  thread with same priority	 and allows other  thread which is called by join()		particular time what we given
+or higher priority
+
+
+*static					*non-static					*static
+
+*not throws IE				*throws IE					*throws IE
+
+*not overloaded methods			*has overloaded methods				*has overloaded methods
+
+*not final					*final						*not -final
+
+
+Race Condition : - Multiple threads acting on a same resource , to overcome these we are going for synchronized n
+
+
+Synchronized : 
+	* once we declared method as synchronized  , it will acquire the lock to the object(Object lock) . after completing or finishing the thread 
+it will not give access to the other thread . Releases the object lock once the thread is completed . so , it is single threaded 
+
+DeadLock  :-
+_____________
+wait() : it pause the execution of the current thread and also it releases the object lock .
+notify() :which ever the thread waiting for this object will be notify 
+	releases the object lock and notify the thread for this object
+notifyAll() : releases the object lock and notify all the threads for this object
+
+______________________________
+
+life cycle of thread :
+
+
+
+
+
+
+
+
+
+
+
+
+
+

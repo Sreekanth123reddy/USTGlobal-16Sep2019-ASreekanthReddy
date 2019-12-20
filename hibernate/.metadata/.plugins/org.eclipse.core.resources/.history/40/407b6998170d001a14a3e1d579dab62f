@@ -1,0 +1,49 @@
+package com.ustglobal.jpawithhibernate.manytomany;
+
+import java.util.ArrayList;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.ustglobal.jpawithhibernate.onetoone.VoterCard;
+
+public class TestManytoMany {
+	public static void main(String[] args) {
+		Course course= new Course();
+		course.setCid(101);
+		course.setName("java");
+		
+		Course course1= new Course();
+		course1.setCid(102);
+		course1.setName("sql");
+		ArrayList<Course> al = new ArrayList<Course>();
+		al.add(course);
+		al.add(course1);
+		Student student = new Student();
+		student.setSid(1);
+		student.setSname("Sreekanth");
+		student.setCourses(al);
+
+
+		EntityTransaction entityTransaction =null;
+		EntityManager entityManager =null;
+		try {
+			EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("test");
+			entityManager  = entityManagerFactory.createEntityManager();
+			entityTransaction = entityManager.getTransaction();
+			entityTransaction.begin();
+			VoterCard vCard = entityManager.find(VoterCard.class, 101);
+			System.out.println(vCard.getPerson().getPid());
+			System.out.println("Record Saved");
+			entityTransaction.commit();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			entityTransaction.rollback();
+		}
+		entityManager.close();
+
+	}
+}

@@ -1,0 +1,30 @@
+package com.ust.retailermaintenancesystem.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.ust.retailermaintenancesystem.service.RetailerService;
+
+@Controller
+public class RetailerController {
+	@Autowired
+	private RetailerService service ;
+	@GetMapping("/login")
+	public String loginPage() {
+		
+		return "login";
+	} //end of loginpage
+	@PostMapping("/login")
+	public String login(int id, String password, HttpServletRequest request) {
+		EmployeeBean bean = service.login(id, password);
+		if(bean==null) {
+			request.setAttribute("msg", "Invalid Crediantials");
+			return "login";
+		}else {
+			HttpSession session = request.getSession();
+			session.setAttribute("bean", bean);
+			return "home";
+		}
+	}///end of login
+	
+}

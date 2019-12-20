@@ -1,0 +1,68 @@
+Multitasking : - multiple tasks executing simultaneously .
+*Process  base tasking , thread based tasking .
+
+Process based multi tasking : - one task is not dependent on another task and those tasks indeapendent of each other .Operating sydtem will handle
+these type of tasks . 
+->At a time :
+	Type java programs
+	Download a file 
+	Hearing Music
+*OS will handle these tasks	
+
+
+Thread based multi tasking : 
+*Executing several tasks  simultaneously which is indeapendent part of the same program . It is also called multithreading
+
+How to define a thread :
+Two ways : 
+1. extends Thread class
+2.Implements Runnable interface .
+
+1.extends Thread class : 
+Method :
+->run()
+->For run method() there is no implementation in Thread class , if we extends Thread class then we need to override run method but its options
+,if we need not over ride then creating Thread is waste
+->We should never , ever call run method , there is another method called start() , for executing simultaneously
+class MyThread extends Thread{
+	public  void run()
+	{
+	for(int i = 0;i<10;i++)
+	{		
+		Sysout("child Thread");
+	}
+	}
+}
+
+class Test {
+
+	psvm(){
+	Sysout("main starts");
+	MyThread t1= new MyThread();
+	t1.start();
+	Sysout("main ends");	
+}
+}
+
+*JVM will create thread while executing - 
+	as soon as it will call start() , it will create new Thread  . From here main thread will separate and child thread separate
+	Child thread will  run the run() method .
+	Main thread will execute main method . 
+
+What is a Thread ?
+*Thread is a light weight process , where it takes its own CPU execution time 
+*To increase the performance , we will go for Thread based concept
+*Thread Schedular is responsible for creating the  Threads and executing the threads
+
+*Start() method will  register the thread with thread schedualer . start() method internally calls the run() method.
+
+* Can we overload run() method ?
+Yes , we can overload    but start() always calls Zero argument  run() method .
+
+*Can we override start() method ?
+yes ,its possible .The overridden start method will execute but it will not behave like a thread . If we want behave like a thread then we should not
+override start() method .
+
+*If we call run() method directly , it does not behave like a thread , we need to call run() with start() method .
+
+*If we start() the thread again we will not start . We can not restart the thread . If we restart the start() , we get IllegalThreadStateException

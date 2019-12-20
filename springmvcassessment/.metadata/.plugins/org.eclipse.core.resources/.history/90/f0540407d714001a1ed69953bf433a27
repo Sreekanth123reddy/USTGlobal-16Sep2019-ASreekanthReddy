@@ -1,0 +1,66 @@
+<%@page import="com.ust.retailermaintenancesystem.dto.RetailerBean"%>
+<%@page import="com.ust.retailermaintenancesystem.dto.ProductBean"%>
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+	<%
+    ProductBean bean = (ProductBean)session.getAttribute("bean");
+    %>
+    <%
+    RetailerBean bean1 = (RetailerBean)session.getAttribute("bean");
+    %>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<body>
+	<a href="./changepassword">Change Password</a>
+	<a href="./retrive">retrieve orders by ID</a>
+	<a href="./calcullate">Calculate Amount</a>
+	<a href="./logout" style="float: right">Logout</a>
+	<h2>
+		Welcome
+		<%=bean1.getName() %></h2>
+	<fieldset>
+		<legend> Search Product</legend>
+		<form action="./search">
+			<table>
+				<tr>
+					<td>ID:</td>
+					<td><input type="number" name="id"> </td>
+					<td><input type="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+<%
+ProductBean bean = (ProductBean)session.getAttribute("bean");
+%>
+<%
+if(retailerBean!=null){
+%>
+<table>
+<tr>
+<th>OrderId</th>
+<th>ProductName</th>
+<th>Price/unit</th>
+<th>quantity</th>
+<th>AmountPayble</th>
+<th>RetailerID</th>
+</tr>
+<%-- <tr>
+<td><%=employeeBean.getName() %></td>
+<td><%=employeeBean.getEmail() %></td>
+<td><%=employeeBean.getGender() %></td>
+<td><%=employeeBean.getDoj() %></td>
+</tr> --%>
+</table>
+<%
+}
+%>
+<h3>${msg}</h3>
+</body>
+</html>

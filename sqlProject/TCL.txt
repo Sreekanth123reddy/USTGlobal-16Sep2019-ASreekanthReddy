@@ -1,0 +1,12 @@
+Transition control language : -
+1.Roll Back :
+	In my sql first we need to put set autocommit=0; , insert new record , rollback; and check .
+2.Commit : 
+	First we need to update the record , commit ; rollback ; ->it will commit the changes .
+3.Savepoint :
+	savepoint always work with rollback.
+	1. savepoint a;
+	2.insert new record
+	3.savepoint b;
+	4.update record
+	5.roll back to a;

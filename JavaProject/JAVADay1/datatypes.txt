@@ -1,0 +1,30 @@
+DataTypes : -
+	There are mainly two types of datatypes :-
+			1.Primitive
+			2.Non -Primitive
+Primitive data types :
+*byte ->1 byte ->8 bits->-2^7 to +2^7-1
+*short->2 byte ->16 bits ->-2^16 to 2^16-1
+*int ->4 bytes ->32 bits ->-2^31 to 2^31-1
+*float ->4 bytes ->32 bits ->no range
+*long ->8 bytes ->64 bits ->-2^63 to 2vv^63-1
+*double->8 bytes->64 bits ->no range
+*char ->2 bytes ->16 bits ->0 to 2^15-1
+*boolean -> -  ->1 bit
+_____________________________
+Variables : -
+	container to store value data
+syntax :  datatype variablename/identifier ;
+	int age; //Declaration
+	age =21 ; //Intialization
+	boolean 	areUSingle ;
+	areUSingle  = true ;
+	char alphabet = 'A';
+	double value =20.5;	
+_________________________________
+Rules to declare variable : 
+	->It should not start with number
+	->no spaces
+	->no special characters except ( $ , _);
+_______________________________________	
+

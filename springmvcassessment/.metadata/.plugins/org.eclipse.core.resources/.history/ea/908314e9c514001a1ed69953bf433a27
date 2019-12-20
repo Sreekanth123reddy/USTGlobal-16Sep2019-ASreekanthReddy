@@ -1,0 +1,5 @@
+package com.ust.retailermaintenancesystem.service;
+
+public interface RetailerService {
+
+}

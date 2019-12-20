@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.ust.retailermaintenancesystem.dao.RetailerDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+<fullyQualifiedTypeName name="com.ust.retailermaintenancesystem.service.RetailerService"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.SessionAttribute"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="com.ust.retailermaintenancesystem.dto.ProductBean"/>
+<fullyQualifiedTypeName name="com.ust.retailermaintenancesystem.dto.RetailerBean"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="com.ust.retailermaintenancesystem.dto.OrdersBean"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="com.ust.retailermaintenancesystem.dto.Product"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.ust.retailermaintenancesystem.dto.User"/>
+</qualifiedTypeNameHistroy>

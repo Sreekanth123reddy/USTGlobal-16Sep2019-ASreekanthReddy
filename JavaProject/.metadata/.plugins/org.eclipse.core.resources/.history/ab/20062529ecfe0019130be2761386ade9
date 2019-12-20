@@ -1,0 +1,15 @@
+package com.ustglobal.sorting.set;
+
+import java.util.TreeSet;
+
+public class TestE {
+public static void main(String[] args) {
+	TreeSet ts = new TreeSet();
+	ts.add(34);
+	ts.add(58);
+	ts.add(9);
+	ts.add(15);
+	
+	
+}
+}

@@ -1,0 +1,14 @@
+Persistence  : - Persistence class is boot strap class  that is sed to obtain entityManagerFactory
+EntityManageFactory is an interface that is used to obtain persistence unit .
+
+* Difference between find and get reference methods
+Find() delivers the entity from the cache of the persistence context or if he is not there, it will be loaded from the database.
+GetReference() does not load the entity immediately. A proxy( a certain object, a so called "deputy" with enriched methods for loading the actual entity) is returned. So it is a realisation with help of LazyLoading.
+Only if the attributes of the proxy or other persistence methods are needed/called the proxy interacts and loads the actual entity from the database.
+
+Persistence life cycle :
+1.Transient object : Transient objects exist in heap memory. Hibernate does not manage transient objects or persist changes to transient objects.
+2.Persistent Object : Persistent objects exist in the database, and Hibernate manages the persistence for persistent objects.
+Persistent objects are maintained by Hibernate
+
+Merge is one of the method to reattached the deatched objects 

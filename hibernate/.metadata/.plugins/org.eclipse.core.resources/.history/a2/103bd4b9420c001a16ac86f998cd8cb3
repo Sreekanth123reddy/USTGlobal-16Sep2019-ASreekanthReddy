@@ -1,0 +1,19 @@
+package com.ustglobal.jpawithhibernate.jpql;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class RetrieveWithJPQL {
+public static void main(String[] args) {
+	EntityManager entityManager = null;
+	try {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("test");
+		entityManager = entityManagerFactory.createEntityManager();
+		String jpql = "from ProductInfo";
+		
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+}
+}
