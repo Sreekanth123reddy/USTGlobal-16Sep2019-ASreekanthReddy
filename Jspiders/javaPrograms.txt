@@ -1,0 +1,32 @@
+1. WJP to define methds to two different methods to calculate the sum of digits and number of digits inside digits class 
+________________________
+1.wjp to define perfect number class, in that class define "is perfect method" to take one integer value if that value 
+is perfect number return true otherwise return false ?
+_________________________
+Assignment 
+
+1.WJP to define a method to return how many devisors for passed number 
+
+2.WJP to define a method to return your number is prime or  not 
+
+3.WJP to define a method to return sum of n natural numbers
+
+4.Define a method to reverse the number
+
+5 .Define a method to check the number is strong number or not
+
+__________
+1.define power method to return n^p
+2.Print what are the strong numbers between 1 to 10000
+3.Calculate sum of strong numbers with in 1 lakh
+4.Write  a java program to print all palindrome numbers with in 1000
+______________________________
+Assign
+
+1. WJP to display how many perfect numbers between 1 to 1000
+
+2. Print the prime numbers between 1 to 100
+
+3. define a method to check user entered number is disarium number or not 
+    e.g=>135 =>1^1+3^2+5^3=135 ;
+

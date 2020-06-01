@@ -1,0 +1,11 @@
+1.WJP to define a method to return sum of matrix elements
+2.WJP to define a method to return how many even and odd numbers present in the matrix
+3.define a method to return least element from thee matrix
+4.Define a method to add two matrixes
+_______________
+1.Define a method to calculate and display the sum of diagonal elements
+2.Write a code to display diagonal wise biggest element
+3.Transpose
+4.Rotate the given matrix into 90 degree left
+5.WJP to Print the day name of user entered date
+6.WJP to calculate number of days between two dates

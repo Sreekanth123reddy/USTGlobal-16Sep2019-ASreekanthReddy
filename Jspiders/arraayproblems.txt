@@ -1,0 +1,14 @@
+1 .WJP to solving lift ,load problem ? lift can carry maximum 9 people and total weight of 750
+2.WJP to calculate the average of array eleements?
+3.WJP to define a method to return biggest element from the array?
+4.Define a method to return how many even numbers and odd numbers present in the array
+5.WJP define a method to merge two array into single array ?
+6.Merge two sorted array in sorted format 
+
+Assignment
+___________
+1.Define method to return smallest element from the array
+2.define a method to return how many negative and positive elements present in the array
+3.Define a method to merge three array elements into single array
+4.Define a method to merge two arrays element into single array in zigzig fashion
+5.Define a method to return how many prime numbers present in the array.

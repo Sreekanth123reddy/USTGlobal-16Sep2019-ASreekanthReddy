@@ -1,0 +1,4 @@
+1.WJP to define a method to count and return how many distinct elements in two arrays ?
+2.Display the frequency of each element from the array ?
+3.WJP to print how many vowels ,consonants,capital letters, small letters,digits and special characters 
+present in the String

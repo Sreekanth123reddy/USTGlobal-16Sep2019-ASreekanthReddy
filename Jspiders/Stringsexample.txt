@@ -1,0 +1,9 @@
+WJP to calculate sum of digits from the string ?
+
+Assignment
+___________
+1.define method to convert all vowels into capitals in String
+// done 2.Define a method to reeturn how many words present in the sentence
+3.WJP to define a method to convert every word first character into capital and reemaining lower case
+4.WJP print user enter number in the form of sentence
+5.WJP to print how many characters present in each word

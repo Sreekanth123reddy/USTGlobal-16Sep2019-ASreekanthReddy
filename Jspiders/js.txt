@@ -1,0 +1,18 @@
+2/07/19
+class Work
+___________
+1 .WJP DEfine a method to check the number is "Happy Number " or "Not" ?
+
+2.WJP to define a method to print first n fibbonacci series numbers ?
+
+3.WJP to define a method to return how many bits are setted in the passed integer ?
+
+4.WJP to convert binary to decimal ?
+    		
+		octal to decimal ? (not done)
+
+5.WJP to define method decimal to binary?( " not done");
+
+6.decimal to octal ? ("Not done ");
+
+7.WJP to print the factorial of first n numbers 

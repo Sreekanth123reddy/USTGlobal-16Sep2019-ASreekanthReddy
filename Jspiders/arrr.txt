@@ -1,0 +1,12 @@
+1.Delete the array element from the specified index
+2.Define a method to reverse the array element
+3.WJP to print the pair of elements whose sum is equal to n
+4.WJP to define a method to return intersection of two array elements
+5.WJP to print first and second biggest array without sorting
+
+assignment
+1.Define a method to return union of two sets
+2.WJP to print firsst and second least element in array
+3.define a method to return highest peak element from the arrAY,not present return -1.
+	clue :peak element is greater than neighbours
+ 
